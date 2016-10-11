@@ -1,0 +1,12 @@
+% figure-library.top
+\unprotect
+\setupsystem[\c!n=2,\c!m=3]
+\def\MPOSTformatswitch{-progname=metafun -mem=}
+\setupsystem[\c!method=2]
+\setupsystem[\c!type=mswin]
+\setupoutput[pdftex]
+\enablemode[compact]
+\setupsystem[inputfile=figure-library.xml]
+\protect
+\usemodule[fig-make]
+\endinput

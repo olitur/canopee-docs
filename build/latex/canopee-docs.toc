@@ -1,0 +1,184 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Initiation Sketchup et Autocad}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Principe}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Objectif}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Le projet}{4}{subsection.1.1.3}
+\contentsline {subsubsection}{Aper\IeC {\c c}u en images}{4}{subsubsection*.3}
+\contentsline {subsubsection}{Analyse du mod\IeC {\`e}le}{10}{subsubsection*.4}
+\contentsline {subsubsection}{Travail r\IeC {\'e}el sur ce projet}{10}{subsubsection*.5}
+\contentsline {section}{\numberline {1.2}D\IeC {\'e}marrage}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}R\IeC {\'e}cup\IeC {\'e}ration des fichiers du projet}{10}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Organisation pr\IeC {\'e}alable des documents}{11}{subsection.1.2.2}
+\contentsline {subsubsection}{Principe}{11}{subsubsection*.6}
+\contentsline {subsubsection}{Organisation des fichiers pour ce tutoriel}{12}{subsubsection*.7}
+\contentsline {subsection}{\numberline {1.2.3}Sketchup}{13}{subsection.1.2.3}
+\contentsline {subsubsection}{Configuration initiale}{13}{subsubsection*.9}
+\contentsline {subsubsection}{Importation du ``fond de plan''}{13}{subsubsection*.10}
+\contentsline {section}{\numberline {1.3}Mod\IeC {\'e}lisation initiale dans Sketchup}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Murs ext\IeC {\'e}rieurs}{14}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Cloisons}{15}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Plancher}{17}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Export vers Autocad}{17}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}\IeC {\'E}dition dans AutoCAD}{19}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}R\IeC {\'e}glage de l'unit\IeC {\'e} d'insertion en m\IeC {\`e}tres}{19}{subsection.1.4.1}
+\contentsline {subsubsection}{Fichiers export\IeC {\'e}s par Sketchup}{19}{subsubsection*.11}
+\contentsline {subsubsection}{Nouveau fichier ``H\IeC {\^o}te'' des exports de Sketchup}{19}{subsubsection*.12}
+\contentsline {subsection}{\numberline {1.4.2}Import en xref}{20}{subsection.1.4.2}
+\contentsline {subsubsection}{Insertion de la premi\IeC {\`e}re xref}{20}{subsubsection*.13}
+\contentsline {subsubsection}{Insertion des suivantes}{20}{subsubsection*.14}
+\contentsline {subsubsection}{Copie des xrefs}{21}{subsubsection*.15}
+\contentsline {subsection}{\numberline {1.4.3}Cr\IeC {\'e}ation des calques n\IeC {\'e}cessaires}{22}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Tra\IeC {\c c}age des lignes de construction}{22}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.5}Tra\IeC {\c c}age des contours du plan}{22}{subsection.1.4.5}
+\contentsline {subsubsection}{Tra\IeC {\c c}age initial ``au kilom\IeC {\`e}tre'' (\IeC {\'e}dition)}{22}{subsubsection*.16}
+\contentsline {subsubsection}{Changement \IeC {\'e}paisseur des lignes (modification)}{23}{subsubsection*.17}
+\contentsline {subsection}{\numberline {1.4.6}Cotation}{24}{subsection.1.4.6}
+\contentsline {subsection}{\numberline {1.4.7}Mise en page}{25}{subsection.1.4.7}
+\contentsline {subsection}{\numberline {1.4.8}Impression en pdf}{25}{subsection.1.4.8}
+\contentsline {subsection}{\numberline {1.4.9}Imprimer du pdf sur du papier}{25}{subsection.1.4.9}
+\contentsline {section}{\numberline {1.5}Modification avec Sketchup}{25}{section.1.5}
+\contentsline {section}{\numberline {1.6}Suivi des modifications dans AutoCAD}{25}{section.1.6}
+\contentsline {chapter}{\numberline {2}Sketchup}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation de Sketchup}{27}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Notions Essentielles}{27}{subsection.2.1.1}
+\contentsline {subsubsection}{Navigation}{27}{subsubsection*.18}
+\contentsline {subsubsection}{Rep\IeC {\`e}res de dessin}{27}{subsubsection*.19}
+\contentsline {subsubsection}{Groupes}{28}{subsubsection*.20}
+\contentsline {subsubsection}{Pousser / tirer}{28}{subsubsection*.21}
+\contentsline {subsection}{\numberline {2.1.2}Les bases \IeC {\'e}l\IeC {\'e}mentaires}{28}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Configuration de Sketchup}{29}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Configuration Initiale}{29}{subsection.2.2.1}
+\contentsline {subsubsection}{Interface graphique}{29}{subsubsection*.22}
+\contentsline {subsubsection}{Sp\IeC {\'e}cifications des unit\IeC {\'e}s de travail, etc.}{29}{subsubsection*.23}
+\contentsline {subsection}{\numberline {2.2.2}Configuration avanc\IeC {\'e}e}{32}{subsection.2.2.2}
+\contentsline {subsubsection}{Plugins}{32}{subsubsection*.24}
+\contentsline {section}{\numberline {2.3}Installation de plugins}{32}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Installation}{33}{subsection.2.3.1}
+\contentsline {subsubsection}{M\IeC {\'e}thode traditionnelle}{33}{subsubsection*.25}
+\contentsline {subsubsection}{M\IeC {\'e}thode ``installateur''}{33}{subsubsection*.26}
+\contentsline {subsection}{\numberline {2.3.2}Liste des scripts}{34}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Importation ``fond de plan'' dans Sketchup}{36}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Pr\IeC {\'e}paration du dessin}{36}{subsection.2.4.1}
+\contentsline {subsubsection}{Calques}{37}{subsubsection*.27}
+\contentsline {subsubsection}{Information sur l'entit\IeC {\'e}}{37}{subsubsection*.28}
+\contentsline {subsection}{\numberline {2.4.2}Importation en *.pdf : NOK}{37}{subsection.2.4.2}
+\contentsline {subsubsection}{Probl\IeC {\`e}me : importation des images en *.pdf impossible}{37}{subsubsection*.29}
+\contentsline {subsubsection}{Capture du pdf avec l'outil instantan\IeC {\'e} dans Acrobat Reader}{38}{subsubsection*.30}
+\contentsline {subsection}{\numberline {2.4.3}Importation en *.png : OK}{41}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Mise \IeC {\`a} l'\IeC {\'e}chelle de l'image dans Sketchup}{42}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Redimensionnement d'une image}{42}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Probl\IeC {\`e}me : inad\IeC {\'e}quation de l'outil ``\IeC {\'E}chelle''}{42}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Solution : Utilisation de l'outil ``Mesure''}{42}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Redimensionnement : liste des solutions possibles}{43}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Importation d'une image en tant que texture}{43}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Concept}{44}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}\IeC {\'E}tapes}{44}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Autres m\IeC {\'e}thodes de redimensionnement}{44}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}D\IeC {\'e}placement multiple/clonage}{45}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Principe \& usage}{45}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}D\IeC {\'e}placement M + CTRL}{45}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Rotation Q + CTRL}{46}{subsection.2.7.3}
+\contentsline {section}{\numberline {2.8}Escaliers}{46}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Rectangle \& sous-divisions}{46}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Profil copi\IeC {\'e}}{47}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Composants}{47}{subsection.2.8.3}
+\contentsline {section}{\numberline {2.9}Cr\IeC {\'e}ation de Sc\IeC {\`e}nes}{48}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Ajout de sc\IeC {\`e}ne}{48}{subsection.2.9.1}
+\contentsline {subsubsection}{Premi\IeC {\`e}re sc\IeC {\`e}ne}{48}{subsubsection*.33}
+\contentsline {subsubsection}{Sc\IeC {\`e}nes suivantes}{48}{subsubsection*.34}
+\contentsline {subsection}{\numberline {2.9.2}Adaptation de la vue}{48}{subsection.2.9.2}
+\contentsline {section}{\numberline {2.10}Export vers le dwg}{49}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Vues pr\IeC {\'e}d\IeC {\'e}finies (avant/arri\IeC {\`e}re, cot\IeC {\'e}s)}{49}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Coupes}{50}{subsection.2.10.2}
+\contentsline {section}{\numberline {2.11}FAQ Sketchup}{50}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Import}{51}{subsection.2.11.1}
+\contentsline {subsection}{\numberline {2.11.2}Export}{51}{subsection.2.11.2}
+\contentsline {section}{\numberline {2.12}Glossaire Sketchup}{51}{section.2.12}
+\contentsline {chapter}{\numberline {3}AutoCAD}{53}{chapter.3}
+\contentsline {section}{\numberline {3.1}Configuration d'AutoCAD}{53}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Aspect graphique}{54}{subsection.3.1.1}
+\contentsline {subsubsection}{Acc\IeC {\`e}s rapide}{54}{subsubsection*.38}
+\contentsline {subsubsection}{Couleurs espace objet/ ligne de commande}{54}{subsubsection*.39}
+\contentsline {subsubsection}{Espace de travail}{54}{subsubsection*.40}
+\contentsline {subsubsection}{Perte du Ruban : comment le retrouver}{55}{subsubsection*.41}
+\contentsline {subsubsection}{Palette/Groupe de personalis\IeC {\'e}}{55}{subsubsection*.42}
+\contentsline {subsubsection}{Barre d'\IeC {\'e}tat}{56}{subsubsection*.43}
+\contentsline {subsection}{\numberline {3.1.2}Sous le capot}{57}{subsection.3.1.2}
+\contentsline {subsubsection}{Unit\IeC {\'e}s d'insertion}{57}{subsubsection*.44}
+\contentsline {subsubsection}{Type de lignes}{57}{subsubsection*.45}
+\contentsline {subsubsection}{Unit\IeC {\'e}s}{58}{subsubsection*.46}
+\contentsline {subsubsection}{Calques}{58}{subsubsection*.47}
+\contentsline {subsubsection}{Style de texte}{58}{subsubsection*.48}
+\contentsline {subsubsection}{Style de Cotes}{60}{subsubsection*.49}
+\contentsline {subsubsection}{Style de tableau}{65}{subsubsection*.50}
+\contentsline {subsubsection}{Style de points}{66}{subsubsection*.51}
+\contentsline {subsubsection}{Style de rep\IeC {\`e}res multiples}{66}{subsubsection*.52}
+\contentsline {subsubsection}{Imprimantes}{66}{subsubsection*.53}
+\contentsline {subsubsection}{Mise en page}{67}{subsubsection*.54}
+\contentsline {subsubsection}{Pr\IeC {\'e}sentations}{68}{subsubsection*.55}
+\contentsline {subsubsection}{\IeC {\'E}chelles}{69}{subsubsection*.56}
+\contentsline {subsubsection}{Cartouche}{69}{subsubsection*.57}
+\contentsline {subsubsection}{Fichiers}{71}{subsubsection*.58}
+\contentsline {section}{\numberline {3.2}Autocad}{71}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Import des fichiers g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}s par Sketchup}{71}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}FAQ AutoCAD}{71}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Comment faire pour ...}{72}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Glossaire AutoCAD}{72}{section.3.4}
+\contentsline {chapter}{\numberline {4}Photoshop}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Configuration de Photoshop}{73}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}M\IeC {\'e}moire vive}{73}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Disques de travail}{73}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}R\IeC {\'e}glage de l'\IeC {\'e}cran}{73}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Pr\IeC {\'e}f\IeC {\'e}rences}{73}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Espace de travail}{73}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}D\IeC {\'e}tourage d'objets, personnages, etc.}{73}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Utilisation de l'outil ``extraction''}{74}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Correction des d\IeC {\'e}fauts}{75}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Sauvegarde de l'extraction dans un canal alpha}{76}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}R\IeC {\'e}utilisez votre travail}{77}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Achetez celui des autres}{78}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Pr\IeC {\'e}paration de la perspective}{79}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Sketchup}{79}{subsection.4.3.1}
+\contentsline {subsubsection}{Importation du mod\IeC {\`e}le}{79}{subsubsection*.62}
+\contentsline {subsubsection}{Cr\IeC {\'e}ation des sc\IeC {\`e}nes}{79}{subsubsection*.63}
+\contentsline {subsubsection}{Exportation des images}{80}{subsubsection*.64}
+\contentsline {subsection}{\numberline {4.3.2}Photoshop}{81}{subsection.4.3.2}
+\contentsline {subsubsection}{Ouverture des images}{81}{subsubsection*.65}
+\contentsline {subsubsection}{Travail sur l'image de couleur}{81}{subsubsection*.66}
+\contentsline {subsubsection}{Effet de flou}{83}{subsubsection*.67}
+\contentsline {section}{\numberline {4.4}Insertion dans le site}{84}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Pr\IeC {\'e}paration de l'image}{84}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Photomontage (ajout d'une image sur une autre)}{84}{subsection.4.4.2}
+\contentsline {subsubsection}{Pr\IeC {\'e}paration}{84}{subsubsection*.68}
+\contentsline {subsubsection}{D\IeC {\'e}placement \& transformation du collage}{85}{subsubsection*.69}
+\contentsline {subsubsection}{Nettoyage de l'image rapport\IeC {\'e}e}{85}{subsubsection*.70}
+\contentsline {subsubsection}{Harmonisation de l'image rapport\IeC {\'e}e avec le fond}{86}{subsubsection*.71}
+\contentsline {section}{\numberline {4.5}Pr\IeC {\'e}parer une jaquette de CD}{86}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Pourquoi?}{87}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}La face}{87}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}L'arri\IeC {\`e}re}{88}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Le rond du CD}{89}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}La facilit\IeC {\'e}}{90}{subsection.4.5.5}
+\contentsline {section}{\numberline {4.6}Scan et assemblage d'images}{90}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Scan : consid\IeC {\'e}rations g\IeC {\'e}n\IeC {\'e}rales}{90}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Scan : Photoshop}{91}{subsection.4.6.2}
+\contentsline {subsubsection}{Scan}{91}{subsubsection*.72}
+\contentsline {subsubsection}{Post-traitement des images}{92}{subsubsection*.73}
+\contentsline {subsection}{\numberline {4.6.3}Scan : Gimp}{92}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Assemblage : Photoshop}{92}{subsection.4.6.4}
+\contentsline {subsubsection}{Gimp}{93}{subsubsection*.74}
+\contentsline {subsection}{\numberline {4.6.5}Assemblage : Autopano Pro}{93}{subsection.4.6.5}
+\contentsline {subsubsection}{Installation}{93}{subsubsection*.75}
+\contentsline {subsubsection}{Premier panoramique}{93}{subsubsection*.76}
+\contentsline {subsubsection}{\IeC {\`A} faire}{95}{subsubsection*.77}
+\contentsline {section}{\numberline {4.7}FAQ Photoshop}{96}{section.4.7}
+\contentsline {section}{\numberline {4.8}Glossaire Photoshop}{96}{section.4.8}
+\contentsline {chapter}{\numberline {5}FTP//Web//Mail}{97}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cr\IeC {\'e}ation d'un compte ``gratuit'' chez Free.fr}{97}{section.5.1}
+\contentsline {section}{\numberline {5.2}Services FREE}{97}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Fax}{97}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Glossaire FTP//Web//Mail}{98}{section.5.3}
+\contentsline {chapter}{\numberline {6}Bureautique}{99}{chapter.6}
+\contentsline {section}{\numberline {6.1}Glossaire Bureautique}{99}{section.6.1}
+\contentsline {chapter}{Index}{101}{section*.82}

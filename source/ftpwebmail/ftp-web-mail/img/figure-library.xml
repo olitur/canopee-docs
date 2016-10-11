@@ -1,0 +1,89 @@
+<figurelibrary language="fr">
+
+<description>
+    <organization>CRP</organization>
+    <project>Tutoriel</project>
+    <product>ftp//web//mail//pdf</product>
+    <comment>Figures</comment>
+</description>
+
+<figure>
+    <file>abo-free-gratuit_001.png</file>
+    <label>capture free 001</label>
+    <copyright>CRP</copyright>
+    <comment>Page d'acceuil site web FREE</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_002.png</file>
+    <label>capture free 002</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 1</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_003.png</file>
+    <label>capture free 003</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 2</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_003-b.png</file>
+    <label>capture free 004</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 2 bis</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_003-c.png</file>
+    <label>capture free 005</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 2 ter</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_003-d.png</file>
+    <label>capture free 006</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 2 quart</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_004.png</file>
+    <label>capture free 007</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 3</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_005.png</file>
+    <label>capture free 008</label>
+    <copyright>CRP</copyright>
+    <comment>Etape 4</comment>
+</figure>
+
+<figure>
+    <file>abo-free-gratuit_006.png</file>
+    <label>capture free 009</label>
+    <copyright>CRP</copyright>
+    <comment>Succès inscription</comment>
+</figure>
+
+<figure>
+    <file>ftp-filezilla-001.pdf</file>
+    <label>capture filezilla 001</label>
+    <copyright>CRP</copyright>
+    <comment>Ecran de connexion</comment>
+</figure>
+
+<figure>
+    <file>ftp-connect-client-txt-win.png</file>
+    <label>capture ftp-txt 001</label>
+    <copyright>CRP</copyright>
+    <comment>Ecran de connexion ligne de commande</comment>
+</figure>
+
+</figurelibrary>
+
+

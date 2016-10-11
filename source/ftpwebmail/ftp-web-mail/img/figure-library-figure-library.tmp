@@ -1,0 +1,8 @@
+  \framed
+    [width=\XMLpar{dummy}{width}{12cm},
+     height=\XMLpar{dummy}{height}{8cm},
+     background=color,
+     backgroundcolor=gray,
+     foregroundcolor=darkred,
+     frame=off]
+    {\bf \XMLpop{dummy}}
