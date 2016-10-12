@@ -1,5 +1,4 @@
-build
-_static
+source
 _templates
 *~
 *.swp

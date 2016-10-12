@@ -1,0 +1,20 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter D
+  \item dwg, \hyperindexformat{\textbf}{72}
+
+  \indexspace
+  \bigletter F
+  \item FTP, \hyperindexformat{\textbf}{98}
+
+  \indexspace
+  \bigletter P
+  \item pdf, \hyperindexformat{\textbf}{99}
+  \item Push-pull (tirer-pousser) raccourci, \hyperindexformat{\textbf}{51}
+
+  \indexspace
+  \bigletter Z
+  \item ZCV, \hyperindexformat{\textbf}{51}
+
+\end{theindex}

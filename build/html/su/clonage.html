@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Déplacement multiple/clonage &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Sketchup" href="index.html" />
+    <link rel="next" title="Escaliers" href="escalier.html" />
+    <link rel="prev" title="Importation d’une image en tant que texture" href="import-img-com-texture.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="escalier.html" title="Escaliers"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="import-img-com-texture.html" title="Importation d’une image en tant que texture"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Sketchup</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="deplacement-multiple-clonage">
+<span id="deplcmt-multipl"></span><h1>Déplacement multiple/clonage</h1>
+<p>La touche [<strong>CTRL</strong>] associée à un outil de modification (déplacement [<strong>M</strong>], rotation [<strong>Q</strong>] ) permet de &#8220;cloner&#8221; des objets.</p>
+<p>L&#8217;équivalent AutoCAD est la commande <em>Réseau</em></p>
+<div class="section" id="principe-usage">
+<h2>Principe &amp; usage</h2>
+<p>Ces objets peuvent être nimporte-quelle entité de dessin : ligne, surface, volume, composant, etc.</p>
+<dl class="docutils">
+<dt>le clonage est soit :</dt>
+<dd><ul class="first last simple">
+<li>effectué avec une distance fixe (petite) et un nombre de copies (par <em>multiplication</em>)</li>
+<li>effectué avec la distance totale et un nombre de copie (par <em>division</em>)</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="deplacement-m-ctrl">
+<h2>Déplacement M + CTRL</h2>
+<p>Réseau &#8220;linéaire&#8221; : copie le long d&#8217;un axe (x ou y ou z)</p>
+<dl class="docutils">
+<dt>Exemple 1 :</dt>
+<dd><ul class="first last simple">
+<li>vous dessinez les chevrons (section 6X8) d&#8217;une charpente, disposés selon un entraxe de 60 cm.</li>
+<li>sélectionnez le chevron</li>
+<li>activez l&#8217;outil déplacement : <strong>M</strong></li>
+<li>appuyez sur la touche <strong>CTRL</strong> (l&#8217;icône de l&#8217;outil possède un &#8220;plus&#8221; dans le coin droit supérieur)</li>
+<li>sélectionnez l&#8217;arête du chevron</li>
+<li>indiquez comme valeur de déplacement (60 -1/2 ep. chevron = 60-3 = ) <code class="docutils literal"><span class="pre">57</span> <span class="pre">cm</span></code> dans la ZCV. Attention : restez &#8220;collé&#8221; sur un axe</li>
+<li>vous avez à &#8220;chevronner&#8221; sur une distance de 12 m de façade? indiquez (12/0.6 = ) <code class="docutils literal"><span class="pre">x20</span></code> ou <code class="docutils literal"><span class="pre">20x</span></code> dans la ZCV. Remarquer le &#8220;x&#8221;</li>
+</ul>
+</dd>
+<dt>Example 2 :</dt>
+<dd><ul class="first last simple">
+<li>vous dessinez les poteaux d&#8217;une pergola. Cette pergola couvre une terrasse faisant 14,45 m de longueur (c&#8217;est une terrasse du Sud de la France ...)</li>
+<li>sélectionnez le poteau que vous avez dessiné à une extrémité de la pergola</li>
+<li>activez l&#8217;outil déplacement : <strong>M</strong></li>
+<li>appuyez sur la touche <strong>CTRL</strong> (l&#8217;icône de l&#8217;outil possède un &#8220;plus&#8221; dans le coin droit supérieur)</li>
+<li>cliquez sur l&#8217;arête du poteau</li>
+<li>indiquez comme valeur de déplacement <code class="docutils literal"><span class="pre">14,45</span></code> (Sketchup a été configuré pour le dessin en mètres, 14,45=14,45m). Attention à utiliser la <code class="docutils literal"><span class="pre">,</span></code> et non le <code class="docutils literal"><span class="pre">.</span></code></li>
+<li>vous voulez 4 poteaux entre les poteaux d&#8217;extémité? Indiquez <code class="docutils literal"><span class="pre">4/</span></code> ou <code class="docutils literal"><span class="pre">/4</span></code>. Enjoy</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="rotation-q-ctrl">
+<h2>Rotation Q + CTRL</h2>
+<p>Réseau &#8220;polaire&#8221; : copie autour d&#8217;un axe (x ou y ou z)</p>
+<p>La combinaison de ces touches permet d&#8217;effectuer des copies &#8220;circulaires&#8221;.</p>
+<dl class="docutils">
+<dt>Example 3 :</dt>
+<dd><ul class="first last simple">
+<li>vous (tenter de ...) dessiner les marches d&#8217;un escalier balancé</li>
+<li>sélectionnez la marche</li>
+<li>activez l&#8217;outil rotation : <strong>Q</strong></li>
+<li>appuyez sur la touche <strong>CTRL</strong> (l&#8217;icône de l&#8217;outil possède un &#8220;plus&#8221; dans le coin droit supérieur)</li>
+<li>cliquez sur le coin intérieur supérieur (axe de référence)</li>
+<li>cliquez sur l&#8217;extrémité extérieure (on vient de définir la ligne de référence)</li>
+<li>indiquez comme valeur de déplacement (giron = ) <code class="docutils literal"><span class="pre">22cm</span></code> (on doit spécifier l&#8217;unité pour toute dimension différente de l&#8217;unité par défaut)</li>
+<li>indiquez le nombre <code class="docutils literal"><span class="pre">4x</span></code> ou <code class="docutils literal"><span class="pre">x4</span></code></li>
+<li>il ne vous reste plus qu&#8217;a déplacer chaque marche verticalement.</li>
+<li>vous pouvez aussi choisir un déplacement faisant tourner <em>&amp;</em> monter les marches ...</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Déplacement multiple/clonage</a><ul>
+<li><a class="reference internal" href="#principe-usage">Principe &amp; usage</a></li>
+<li><a class="reference internal" href="#deplacement-m-ctrl">Déplacement M + CTRL</a></li>
+<li><a class="reference internal" href="#rotation-q-ctrl">Rotation Q + CTRL</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Sketchup</a><ul>
+      <li>Previous: <a href="import-img-com-texture.html" title="Chapitre précédent">Importation d&#8217;une image en tant que texture</a></li>
+      <li>Next: <a href="escalier.html" title="Chapitre suivant">Escaliers</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

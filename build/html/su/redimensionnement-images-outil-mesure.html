@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Redimensionnement d’une image &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Sketchup" href="index.html" />
+    <link rel="next" title="Importation d’une image en tant que texture" href="import-img-com-texture.html" />
+    <link rel="prev" title="Importation “fond de plan” dans Sketchup" href="import-ssqu.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="import-img-com-texture.html" title="Importation d’une image en tant que texture"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="import-ssqu.html" title="Importation “fond de plan” dans Sketchup"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Sketchup</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="redimensionnement-d-une-image">
+<span id="redimensionnement-images-outil-mesure"></span><h1>Redimensionnement d&#8217;une image</h1>
+<p>Sketchup propose un outil spécifique &#8220;Mettre à l&#8217;échelle&#8221; (raccourci : <strong>S</strong>) pour redimensionner les objets. On peut donc l&#8217;utiliser pour redimensionner une image.</p>
+<div class="section" id="probleme-inadequation-de-l-outil-echelle">
+<h2>Problème  : inadéquation de l&#8217;outil &#8220;Échelle&#8221;</h2>
+<p>Cet outil peut redimensionner de façon <em>uniforme</em> (homothétie) [Maj]+[S], à partir du <em>centre</em> [Ctrl]+[S], avec un <em>facteur d&#8217;échelle</em> : ZCV = nombre et avec une <em>longueur déterminée</em> : ZCV = nombre avec unités.</p>
+<p>Cette dernière possibilité est intéressante, mais difficilement applicable à une image, car l&#8217;outil échelle ne s&#8217;applique que sur les bords de l&#8217;objet &#8220;image&#8221;. Si les points de référence sont <em>à l&#8217;intérieur</em> de l&#8217;image, à moins d&#8217;un découpage à ces limites, l&#8217;outil échelle est inapproprié.</p>
+</div>
+<div class="section" id="solution-utilisation-de-l-outil-mesure">
+<h2>Solution : Utilisation de l&#8217;outil &#8220;Mesure&#8221;</h2>
+<p>Cet outil (raccourci : <strong>T</strong>) est utilisé fréquemment dans Sketchup pour établir des lignes de &#8220;construction&#8221; (repères).</p>
+<p>Ici, on va détourner son usage en appliquant une méthode de redimensionnement par indication d&#8217;une nouvelle distance (comme dans les logiciels de DAO &#8220;industrie&#8221;).</p>
+<p>Si vous venez de lire <a class="reference internal" href="import-ssqu.html#import-ssqu"><span class="std std-ref">Importation &#8220;fond de plan&#8221; dans Sketchup</span></a> vous avez une belle image du plan de Rez de Chaussée du modèle .</p>
+<p>Pour la dimensionner, il nous faut connaître les dimensions &#8220;hors-tout&#8221; de cette maison, en se basant sur la <a class="reference external" href="http://www.fixhaus.at/Berchtold%20Typ2.pdf">notice</a> du modèle &#8220;Berchtold Type 2&#8221; . On y découvre en page 2, que la forme est un <em>rectangle de 12,63 m sur 6,63 m</em></p>
+<ol class="arabic simple">
+<li><strong>T</strong> activez l&#8217;outil mesure (icône : mètre à ruban)</li>
+<li>premier point : cliquez sur le coin supérieur gauche (extérieur du mur). (Au besoin, faites un grossissement d&#8217;affichage (zoom &#8220;molette&#8221;))</li>
+<li>deuxième point : cliquez sur le coin supérieur droit (extérieur du mur). (Au besoin, déplacez l&#8217;image sans rotation (=pan) : [Maj]+[Molette] et Zoomez)</li>
+<li>placez le curseur dans la ZCV [Tab], et rentrez la dimension voulue <code class="docutils literal"><span class="pre">12,63</span></code> (attention à la virgule : c&#8217;est celle du clavier &#8220;texte&#8221;)</li>
+<li>acceptez le redimensionnement de l&#8217;image</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Le redimensionnement d&#8217;une image en sous-qu n&#8217;est jamais &#8220;exact&#8221;, car même si l&#8217;on donne une dimension correcte, on n&#8217;indique jamais le point de départ de la ligne de &#8220;redimensionnement&#8221; avec précision : on clique un peu au hasard sur ce que l&#8217;on croit être le milieu d&#8217;un ligne, cela est dû à l&#8217;imprécision du fort grossissement d&#8217;une image.</p>
+<p class="last">Ce fond de plan sert surtout à donner un idée générale de ce qu&#8217;il faut redessiner avec Sketchup.</p>
+</div>
+<p>Redimensionner avec l&#8217;outil mesure permet d&#8217;utiliser n&#8217;importe quelle image possédant une longueur connue.</p>
+<dl class="docutils">
+<dt>Le seul désavantage</dt>
+ <span class="classifier-delimiter">:</span> <span class="classifier">c&#8217;est une opération homothétique. Si l&#8217;on désire &#8220;déformer&#8221; une image différemment selon les axes X et Y, ou même en s&#8217;accrochant sur plusieurs points &#8220;d&#8217;appariement&#8221;, il faut se tourner vers :</span><dd><ul class="first last simple">
+<li>une autre méthode : voir <a class="reference internal" href="import-img-com-texture.html#image-com-txtur"><span class="std std-ref">Importation d&#8217;une image en tant que texture</span></a></li>
+<li>des logiciels plus spécialisés, comme <a class="reference external" href="http://www.autodesk.fr/adsk/servlet/index?siteID=458335&amp;id=12615796">AutoCAD Raster Design</a></li>
+</ul>
+</dd>
+</dl>
+<p>Nous sommes prêts à dessiner : suivons le guide <a class="reference internal" href="../init_su+acad/003_su1.html#su1"><span class="std std-ref">Modélisation initiale dans Sketchup</span></a></p>
+</div>
+<div class="section" id="redimensionnement-liste-des-solutions-possibles">
+<h2>Redimensionnement : liste des solutions possibles</h2>
+<p>Nous venons de voir qu&#8217;il existe plusieurs façons de redimensionner un image, chacune ayant des avantages et des inconvénients :</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="40%" />
+<col width="40%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Méthode/Outil</strong></td>
+<td><strong>Avantage</strong></td>
+<td><strong>Inconvénient</strong></td>
+</tr>
+<tr class="row-even"><td><strong>Échelle [S]</strong></td>
+<td>pratique, précis, redimensionnement de plusieurs images possible</td>
+<td>s&#8217;accroche au bord de l&#8217;image, ne permet pas d&#8217;utiliser d&#8217;autres points de référence</td>
+</tr>
+<tr class="row-odd"><td><strong>Mesure [T]</strong></td>
+<td>permet de redimensionner à partir de n&#8217;importe quelle référence</td>
+<td>ne permet pas de redimensionner plusieurs images</td>
+</tr>
+<tr class="row-even"><td><strong>Texture</strong></td>
+<td>redimensionne aisément une image importée en tant que texture</td>
+<td>impose d&#8217;avoir une géométrie au préalable, méthode un peu laborieuse (punaises)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Redimensionnement d&#8217;une image</a><ul>
+<li><a class="reference internal" href="#probleme-inadequation-de-l-outil-echelle">Problème  : inadéquation de l&#8217;outil &#8220;Échelle&#8221;</a></li>
+<li><a class="reference internal" href="#solution-utilisation-de-l-outil-mesure">Solution : Utilisation de l&#8217;outil &#8220;Mesure&#8221;</a></li>
+<li><a class="reference internal" href="#redimensionnement-liste-des-solutions-possibles">Redimensionnement : liste des solutions possibles</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Sketchup</a><ul>
+      <li>Previous: <a href="import-ssqu.html" title="Chapitre précédent">Importation &#8220;fond de plan&#8221; dans Sketchup</a></li>
+      <li>Next: <a href="import-img-com-texture.html" title="Chapitre suivant">Importation d&#8217;une image en tant que texture</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

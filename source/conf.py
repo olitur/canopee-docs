@@ -16,8 +16,8 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import sys, os
-# import recommonmark.parser
+import sys, os
+import recommonmark.parser
 # #sys.path.insert(0, os.path.abspath('../../'))
 # from jupyter_sphinx_theme import *
 # init_theme()
@@ -139,25 +139,30 @@ todo_include_todos = False
 # jupyter theme (see top)
 #from jupyter_sphinx_theme import *
 #init_theme()
-html_theme = 'alabaster'
+    # html_theme = 'alabaster'
 
-try:
-    import sphinx_rtd_theme
-except ImportError:
-    pass
-else:
-    html_theme = "sphinx_rtd_theme"
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    # try:
+    #     import sphinx_rtd_theme
+    # except ImportError:
+    #     pass
+    # else:
+    #     html_theme = "sphinx_rtd_theme"
+    #     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+#html_theme = 'haiku'#'scrolls'
+#
+html_theme = 'jinja'
+html_theme_path = ['_themes']
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-    'collapse_navigation': False,
-    'display_version': False,
-#    'navigation_depth': 2,
-}
+# html_theme_options = {
+#     'collapse_navigation': False,
+#     'display_version': False,
+# #    'navigation_depth': 2,
+# }
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -207,6 +212,13 @@ html_last_updated_fmt = '%d-%m-%Y'
 # Custom sidebar templates, maps document names to template names.
 #
 # html_sidebars = {}
+
+
+html_sidebars = {
+    'index':    ['sidebarlogo.html', 'sidebarintro.html', 'sourcelink.html'],
+    '**':       ['sidebarlogo.html', 'localtoc.html', 'relations.html',
+                 'sourcelink.html']
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

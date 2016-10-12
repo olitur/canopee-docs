@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Édition dans AutoCAD &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Initiation Sketchup et Autocad" href="index.html" />
+    <link rel="next" title="Modification avec Sketchup" href="005_su2.html" />
+    <link rel="prev" title="Modélisation initiale dans Sketchup" href="003_su1.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="005_su2.html" title="Modification avec Sketchup"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="003_su1.html" title="Modélisation initiale dans Sketchup"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Initiation Sketchup et Autocad</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="edition-dans-autocad">
+<h1>Édition dans AutoCAD</h1>
+<p>On vient d&#8217;exporter des &#8220;vues&#8221; ou &#8220;coupes&#8221; (revoir la <a class="reference internal" href="../su/export-dwg.html#export-dwg"><span class="std std-ref">méthode</span></a> ) 2D du modèle 3D &#8220;Porkeno&#8221; (plans R+0 &amp; R+1, façades Nord, Sud, Est &amp; Ouest) au format dwg.</p>
+<p>Ces fichiers sont placés dans le dossier <strong>xrefs</strong> qui est inclus dans le dossier <em>dwg</em> du projet. (revoir <a class="reference internal" href="002_demarrage.html#arborescence-projet"><span class="std std-ref">l&#8217;arborescence</span></a>  type)</p>
+<div class="section" id="reglage-de-l-unite-d-insertion-en-metres">
+<h2>Réglage de l&#8217;unité d&#8217;insertion en mètres</h2>
+<p>Nous avons dessiné en mètres dans Sketchup, mais ce facétieux logiciel exporte des <code class="file docutils literal"><span class="pre">*.dwg</span></code> avec un format d&#8217;insertion en <em>pouces</em> !</p>
+<p>Utilisons la commande <strong class="command">insunits</strong> en l&#8217;écrivant dans la &#8220;ligne de commande&#8221; d&#8217;AutoCAD</p>
+<div class="section" id="fichiers-exportes-par-su">
+<h3>Fichiers exportés par Sketchup</h3>
+<p>Dans le dossier <code class="file docutils literal"><span class="pre">xrefs</span></code>, ouvrons un fichier exporté par Sketchup, par exemple <code class="file docutils literal"><span class="pre">porkeno_plan-R+0_export2D-sketchup.dwg</span></code> en double-cliquant sur son nom dans l&#8217;explorateur windows.</p>
+<p>Un fois AutoCAD lancé (le chargement du ruban est accéléré par rapport à AutoCAD 2009, mais ça prend encore du temps, surtout avec des ordinateurs dotés d&#8217;une carte graphique &#8220;asthmatique&#8221;!), ouvrons les autres fichiers, depuis autocad, par la commande <span class="menuselection">fichier ‣ ouvrir</span> ou le raccourci <code class="kbd docutils literal"><span class="pre">ctrl+o</span></code></p>
+<p>Autocad a maintenant 7 fichiers ouverts (plans R+0, R+1 et toiture, façades Nord, Sud, Est et Ouest). On peut passer de l&#8217;un à l&#8217;autre par le menu <span class="menuselection">fenêtres ‣</span> (voir la page configuration d&#8217;AutoCAD pour afficher ce menu) oupar le raccourci <code class="kbd docutils literal"><span class="pre">ctrl</span> <span class="pre">+</span> <span class="pre">tab</span></code></p>
+<p>Appliquons le réglage sus-mentionné en écrivant la variable suivante <strong class="command">insunits</strong> et en réglant sa valeur (20 possiblités !) à <strong>6</strong>. Cette commande est le raccourci correspondant au menu <span class="menuselection">A ‣ utilitaires de dessin ‣ unités</span> qui provoque l&#8217;affichage de la fenêtre <em>Unités</em> (affichable directement avec la commande &#8220;texte&#8221; éponyme), sur laquelle il faut indiquer <em>mètre</em> en ce qui concerne les unités d&#8217;insertion ... Avouez que la ligne de commande est franchement plus rapide dans certains cas!</p>
+<p>Il efectuer ce réglage avec <strong class="command">insunits : 6</strong> à tous les fichiers <code class="file docutils literal"><span class="pre">*.dwg</span></code>  créés par Sketchup, les enregistrer et les fermer.</p>
+</div>
+<div class="section" id="nouveau-fichier-hote-des-exports-de-su">
+<h3>Nouveau fichier &#8220;Hôte&#8221; des exports de Sketchup</h3>
+<p>Toujours dans AutoCAD, ouvrons un nouveau fichier par la commande <span class="menuselection">fichier ‣ nouveau</span> ou le raccourci <code class="kbd docutils literal"><span class="pre">ctrl</span> <span class="pre">+</span> <span class="pre">n</span></code>.En configuration par défaut (c.a.d que AutoCAD ouvre le gabarit <code class="file docutils literal"><span class="pre">acadiso.dwt</span></code>), il faut changer <em>aussi</em> l&#8217;unité d&#8217;insertion qui est par défaut en mm (insunits : 4). Cette étape ne s&#8217;applique pas si vous avez configuré AutoCAD selon :ref`config-acad` !</p>
+<p>Réglons l&#8217;unité d&#8217;insertion en mètres, avec la commande <strong class="command">insunits : 6</strong></p>
+<p>Enregistrons ce fichier dans le dossier <code class="file docutils literal"><span class="pre">dwg</span></code> sous le nom <code class="file docutils literal"><span class="pre">porkeno_plan+coupe+facades_&lt;auteur&gt;_&lt;date&gt;.dwg</span></code>. Réglez les variables &#8220;auteur&#8221; et &#8220;date&#8221; à votre convenance. Le changement de nom de ce fichier n&#8217;aura pas d&#8217;influence sur l&#8217;insertion en <em>xref</em> des fichiers exportés par Sketchup</p>
+</div>
+</div>
+<div class="section" id="import-en-xref">
+<h2>Import en xref</h2>
+<p>Le fichier <code class="file docutils literal"><span class="pre">porkeno_plan+coupe+facades_&lt;auteur&gt;_&lt;date&gt;.dwg</span></code>  est vide.</p>
+<p>Nous allons y &#8220;copier&#8221; les fichiers créés par Sketchup de façon <em>bidirectionnelle</em> : si l&#8217;on modifie le fichier &#8220;invité&#8221; , le fichier &#8220;hôte&#8221; le sera aussi.</p>
+<p>Cette façon d&#8217;insérer un(des) (ou plusieurs dans notre cas ...) dessin(s) &#8220;invités&#8221; dans un autre &#8220;hôte&#8221; permet de reporter des modifications <em>automatiquement</em>. Il est ainsi facile de modifier l&#8217;esquisse originale dans Sketchup, de ré-exporter les vues axono dans les mêmes fichiers <code class="file docutils literal"><span class="pre">dwg</span></code> (en gardant <strong>absolument</strong> le même nom, donc en écrasant les anciennes versions) : le fichier &#8220;hôte&#8221; en sera &#8220;automagiquement&#8221; modifié!</p>
+<div class="section" id="insertion-de-la-premiere-xref">
+<h3>Insertion de la première xref</h3>
+<ol class="arabic simple">
+<li>clic sur insertion &#8211;&gt; réference externe</li>
+<li>choisissez, dans le sous-dossier <code class="file docutils literal"><span class="pre">xref</span></code>,  le fichier <code class="file docutils literal"><span class="pre">porkeno_plan-R+0_export2D-sketchup.dwg</span></code></li>
+<li>type de chemin <strong>relatif</strong> (possible puisque le nouveau dessin &#8220;hôte&#8221; est <strong>enregistré</strong>) : cela permet d&#8217;enregistrer l&#8217;arborescence complète du projet sur un autre emplacement (2ème ordinateur, clé usb, etc.) sans perdre les xrefs (le chemin relatif enregistre uniquement les informations de positionnement de la xref, relativement au dessin &#8220;hôte&#8221;, comme <code class="file docutils literal"><span class="pre">../porkeno_plan+coupe+facade_o.turlier_14juin-15h20.dwg</span></code>, et pas jusquà la racine complète, i.e. <code class="file docutils literal"><span class="pre">D:/Mesdoc/olivier/projets/porkeno/dessins/dwg/porkeno_plan+coupe+facade_o.turlier_14juin-15h20.dwg</span></code> )</li>
+<li>La seule &#8220;coche&#8221; à laisser est &#8220;spécifiez le point d&#8217;insertion à l&#8217;écran&#8221;</li>
+</ol>
+</div>
+<div class="section" id="insertion-des-suivantes">
+<h3>Insertion des suivantes</h3>
+<ol class="arabic simple">
+<li>une fois le R+0 inséré, faites de même pour le R+1 (à positionner au dessus, à la verticale),</li>
+<li>puis la toiture,</li>
+<li>et les façades, à disposer sur les cotés des plans correspondants (vue des projections à l&#8217;américaine).</li>
+</ol>
+</div>
+<div class="section" id="copie-des-xrefs">
+<h3>Copie des xrefs</h3>
+<img alt="../_images/orientation_xref.png" src="../_images/orientation_xref.png" />
+<ol class="arabic simple">
+<li>pour plus de clarté dans la présentation, n&#8217;hésitez pas à faire des copies des xrefs avec la commande <strong class="command">copie</strong>, pour disposer les ouvertures en regard : en traçant des lignes de brouillon des ouvertures de la façade Est, on doit &#8220;tomber&#8221; exactement sur les ouvertures en plan (rez de chaussée ou autre niveau ...). De même, il est préférable d&#8217;aligner les xrefs en vertical comme ne horizontal, grâce à des lignes de repère &#8220;brouillon&#8221;.</li>
+<li>il est bon, toujours dans les copies, de disposer aussi les façades de façon alignée, sur la même ligne horizontale, idéalement le niveau +- 0,00 archi.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="creation-des-calques-necessaires">
+<h2>Création des calques nécessaires</h2>
+<p>En partant du principe que vous utilisez un AutoCAD &#8220;standard&#8221;, qui n&#8217;a pas utilisé un fichier de gabarit &#8220;personnalisé&#8221;, il faut au moins créer quelques calques permettant de travailler de façon ordonnée :</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="40%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Calque</strong></td>
+<td><strong>couleur</strong></td>
+<td><strong>epaisseur ligne</strong></td>
+<td><strong>impression</strong></td>
+</tr>
+<tr class="row-even"><td><strong>brouillon</strong></td>
+<td>magenta</td>
+<td>default</td>
+<td><strong>non</strong></td>
+</tr>
+<tr class="row-odd"><td><strong>trait_fin</strong></td>
+<td>jaune</td>
+<td>0,25</td>
+<td>oui</td>
+</tr>
+<tr class="row-even"><td><strong>xrefs</strong></td>
+<td>gris</td>
+<td>defaut</td>
+<td>oui</td>
+</tr>
+</tbody>
+</table>
+<p>Sélectionnez toutes les &#8220;xrefs&#8221; (fichiers <code class="file docutils literal"><span class="pre">dwg</span></code> créés par Sketchup) en cliquant une fois dessus et sélectionnez le calque &#8220;xrefs&#8221; dans la liste déroulante.</p>
+</div>
+<div class="section" id="tracage-des-lignes-de-construction">
+<h2>Traçage des lignes de construction</h2>
+<p>Activez le mode &#8220;ortho&#8221; (trait uniquement horizontaux ou verticaux) en appuyant sur la touche <code class="kbd docutils literal"><span class="pre">F8</span></code> (vous pouvez lire dans la ligne de commande : <code class="docutils literal"><span class="pre">&lt;ortho</span> <span class="pre">actif&gt;</span></code>)</p>
+<p>Activez le calque &#8220;brouillon&#8221; et commencez à tracer un trait vertical sur l&#8217;arête extérieure gauche du plan R+0 importé en xref (mur extérieur).</p>
+<p>Décaler ce trait vers la droite d&#8217;une valeur de 36 cm en rentrant la valeur <strong class="command">0.36</strong>.</p>
+<p>Faites de même pour toutes les arêtes déterminant un mur, une cloison, etc., en vous aidant du plan fourni à cette page <a class="reference internal" href="003_su1.html#porkeno-plans-simples"><span class="std std-ref">Cloisons</span></a>, ou pour plus de facilité :  <a class="reference download internal" href="../_downloads/porkeno_plans-simples_o.turlier_03juin09_09h00.pdf" download=""><code class="xref download docutils literal"><span class="pre">là</span></code></a></p>
+<p>L&#8217;important est de ne pas s&#8217;accrocher sur la géométrie existante des &#8220;xrefs&#8221; créées par Sketchup et importées dans ce dessin, mais de se servir des cotes indiquées par le plan <code class="file docutils literal"><span class="pre">*.pdf</span></code>. Les xrefs servent uniquement de <em>fond de plan</em> : on ne peut se fier à Sketchup pour créer une géométrie exacte !</p>
+<p>Une fois que les arêtes verticales sont tracées par décalage, faites de même pour les horizontales.</p>
+</div>
+<div class="section" id="tracage-des-contours-du-plan">
+<h2>Traçage des contours du plan</h2>
+<div class="section" id="tracage-initial-au-kilometre-edition">
+<h3>Traçage initial &#8220;au kilomètre&#8221; (édition)</h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Première approche d&#8217;une méthode de traçage &#8220;rigoureuse&#8221; (dimensions exactes): ne l&#8217;appliquez que sur le plan R+0. Les étapes suivantes seront plus &#8220;réfléchies&#8221;, i.e : les arêtes seront dessinées à leur bonne épaisseur &#8220;à l&#8217;avancement&#8221;</p>
+</div>
+<ol class="arabic simple">
+<li>Activez le calque <code class="docutils literal"><span class="pre">trait_fin</span></code></li>
+<li>Estompez la visibilité du calque <code class="docutils literal"><span class="pre">xrefs</span></code> (60% maximum)</li>
+<li>Dessinez des lignes allant d&#8217;une intersection de ligne de construction à l&#8217;autre, en vous aidant avec les xrefs.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Nouveauté AutoCAD 2010 : l&#8217;inportation d&#8217;un calque sous-jacent en <code class="file docutils literal"><span class="pre">*.pdf</span></code> est possible, et <strong>recommandée</strong>. Si le pdf a été bien dessiné, les traits de celui-ci sont &#8220;accrochables&#8221; : on peut dessiner une géométrie en se calant directement sur le <code class="file docutils literal"><span class="pre">*.pdf</span></code> sous-jacent.</p>
+<p class="last">Hélas, si vous désirez exporter votre dessin dans une version antérieure à AutoCAD 2010, vous ne pourrez plus apercevoir le <code class="file docutils literal"><span class="pre">*.pdf</span></code>, car c&#8217;est une fonctionalité <em>réservée</em> à la version d&#8217;AutoCAD 2010</p>
+</div>
+<ol class="arabic simple">
+<li>Lorsque vous avez tracé tous les contours, vous pouvez masquer(= &#8220;geler&#8221;) le calque &#8220;brouillon&#8221;</li>
+</ol>
+<p>On s&#8217;aperçoit que les épaisseurs de lignes ne correspondent pas aux conventions architecturales : les arêtes coupées sont en trait fin, alors qu&#8217;elle devraient être en trait fort</p>
+</div>
+<div class="section" id="changement-epaisseur-des-lignes-modification">
+<h3>Changement épaisseur des lignes (modification)</h3>
+<p>Les ligne de traits fin correspondant aux arêtes vues doivent être interrompues aux intersections avec les arêtes coupées qui doivent être en traits forts.</p>
+<p>Il y a 2 solutions :</p>
+<ol class="arabic simple">
+<li>l&#8217;une - hélas - trop souvent utilisée (elle &#8220;pollue&#8221; le dessin par la superposition de lignes) consiste à <strong>redessiner</strong> en traits forts sur les traits fins (pour nettoyer les lignes dupliquées, heureusement qu&#8217;il y a un outil dans &#8220;Express Tools&#8221; (en anglais uniquement!) : <span class="menuselection">Express Tools ‣ find duplicates</span>)</li>
+<li>l&#8217;autre plus élégante, consiste à couper les lignes aux intersections où elles doivent changer d&#8217;épaisseur, en utisant l&#8217;outil <strong class="command">couper au point</strong>. C&#8217;est efficace, (sélectionnez la ligne à couper, puis l&#8217;intersection où elle doit être coupée), mais long! Il faut répeter cette opération à chaque point (pas d&#8217;option &#8220;multiple&#8221; à ma connaissance), et en plus, je ne sais pas pourquoi, AutoCAD se met souvent à couper non plus au point, mais aussi un petit segment : il faut alors rallonger la ligne coupée! Une fois coupée, il faut changer le calque de la la ligne en la sélectionnant, puis en cliquant sur le calque désiré (<code class="docutils literal"><span class="pre">trait_forts</span></code> dans notre cas)</li>
+</ol>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p>Les propriétés des entités de dessin dépendent des calques auxquels elles appartiennent! i.e. une ligne est épaisse, de couleur rouge, etc. parce que le calque sur lequel elle est tracée a comme propriété : couleur=rouge, épaiseur ligne=0.70, etc.</p>
+<blockquote>
+<div></div></blockquote>
+<p>Dans la fenêtre propriétés, on doit toujours voir &#8220;Du Calque/Du Calque/Du Calque&#8221; pour les paramètres couleur/épaisseur/style de ligne</p>
+<p class="last">Par pitié, n&#8217;ayez pas l&#8217;idés saugrenue de modifier les propriétés d&#8217;un ligne de façon &#8220;individuelle&#8221; , de façon différente de son calque! Vos modifications ultérieures risquent de devenir un cauchemar!</p>
+</div>
+<p>Pour rallonger un ensemble de lignes, <em>de façon rigoureuse...</em>, il faut utiliser l&#8217;outil <strong class="command">prolonger</strong>. Celui-ci &#8220;demande&#8221; (lisez, lisez &amp; re-lisez la ligne de commande ...) de sélectionnez une ligne faisant office de repère de prolongation ou tout : choisissez cette option en validant (le <code class="kbd docutils literal"><span class="pre">clic-droit</span></code> est votre ami le plus rapide pour la validation ...). Donc, en résumé, <span class="menuselection">prolonger ‣ clic-droit ‣ selection des lignes à prolonger</span></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Les méthodes de sélection sont nombreuses dans AutoCAD et il est utile de les connaître.</p>
+<p>De nombreuses commandes, généralement du groupe <em>modifications</em> (supprimer, déplacer, rotation, copie, etc.) demandent de sélectionner des objets, lignes, etc. et l&#8217;on peut :
+* sélectionner les entités (objets, lignes) une à une, en cliquant dessus (ajout automatique)
+* sélectionner un groupe d&#8217;entités:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>en traçant une <strong>fenêtre</strong> de capture (forme rectangulaire) <em>partielle</em> (pas besoin d&#8217;inclure les entités en entier) : 1er clic coin droit haut, puis &#8220;glisser&#8221; vers le coin bas gauche</li>
+<li>en traçant un <strong>chemin</strong> de capture : lorsque qu&#8217;une commande vous &#8220;demande&#8221; de sélectionner, cliquez sur <strong class="command">T</strong>, et tracez un &#8220;trajet&#8221; de sélection (en cas de traçage au sein d&#8217;une géométrie complexe, il peut être utile de désactiver l&#8217;accrochage objet en cliquant sur la touche <code class="kbd docutils literal"><span class="pre">F3</span></code>, et attention, l&#8217;option <strong class="command">trajet</strong> ne marche que pour la portion visible à l&#8217;écran : vous ne pouvez pas tracer un trait d&#8217;un bord à l&#8217;autre, et le continuer ne déplaçant les objets)</li>
+<li>en traçant un <strong>polygone</strong> de capture (forme angulaire quelquonque) : à l&#8217;invite de sélection, tapez <strong class="command">CP</strong> et tracez un polygone incluant (partiellement) les entités à sélectionner. Attention, la limitation d&#8217;effet de la commande à la portion visible de l&#8217;écran s&#8217;applique aussi ...</li>
+</ul>
+</div></blockquote>
+</div>
+<p>Vous comprenez qu&#8217;il est fastidieux de modifier après coup un grand nombre de lignes : il est préférable de répérer à l&#8217;avance quelle épaissuer doit avoir le trait à tracer, et de semettre dans le calque idoine. Cela s&#8217;appelle de la préparation ... La fable de Jean de la Fontaine <a class="reference external" href="http://www.leplaisirdapprendre.com/Le-lievre-et-la-tortue.html">le lièvre et la tortue</a> nous en rappelle les vertus...</p>
+<p>La suite est simple : une fois les contours tracés (à leur bonne épaisseur, que l&#8217;on peut visualiser en cliquant sur le bouton du bas <strong class="command">el</strong>), on passe à la</p>
+</div>
+</div>
+<div class="section" id="cotation">
+<h2>Cotation</h2>
+<p>Cela nécessite de configurer au préalable (si ce n&#8217;est pas déjà fait) :</p>
+<blockquote>
+<div><ul class="simple">
+<li>les styles de texte (on créera des styles ayant des propriétés &#8220;annotatives&#8221;)</li>
+<li>les styles de cote (appelant les styles de texte définis auparavant)</li>
+<li>les échelles / échelles d&#8217;annotation (création pour le dessin en mètre et pour le dessin en centimètre et suppression des échelles impériales)</li>
+</ul>
+</div></blockquote>
+<p>puis à la</p>
+</div>
+<div class="section" id="mise-en-page">
+<h2>Mise en page</h2>
+<p>dans les présentations (= espace papier) : cela implique de créer/configurer au préalable (si ce n&#8217;est pas déjà fait) :</p>
+<blockquote>
+<div><ul class="simple">
+<li>un cartouche</li>
+<li>une imprimante &#8220;système&#8221; qui exporte le <code class="file docutils literal"><span class="pre">*.dwg</span></code> en <code class="file docutils literal"><span class="pre">*.pdf</span></code> : celle fournie par AutoCAD 2010 <strong>DWG To PDF</strong> est excellente!</li>
+<li>une mise en page nommée, appelant l&#8217;imprimante ci-dessus, dans des formats de papier compatible avec notre matériel : du A3 paysage par exemple</li>
+</ul>
+</div></blockquote>
+<p>enfin à l&#8217;</p>
+</div>
+<div class="section" id="impression-en-pdf">
+<h2>Impression en pdf</h2>
+<p>et à</p>
+</div>
+<div class="section" id="imprimer-du-pdf-sur-du-papier">
+<h2>Imprimer du pdf sur du papier</h2>
+<p>Voilà!</p>
+<p>Il faut donc se tourner vers la page <a class="reference internal" href="../acad/config_acad.html#config-acad"><span class="std std-ref">Configuration d&#8217;AutoCAD</span></a> pour arriver à mener à terminer ces étapes dans un délai raisonnable, mais aussi pour avoir un rendu similaire ...</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Édition dans AutoCAD</a><ul>
+<li><a class="reference internal" href="#reglage-de-l-unite-d-insertion-en-metres">Réglage de l&#8217;unité d&#8217;insertion en mètres</a><ul>
+<li><a class="reference internal" href="#fichiers-exportes-par-su">Fichiers exportés par Sketchup</a></li>
+<li><a class="reference internal" href="#nouveau-fichier-hote-des-exports-de-su">Nouveau fichier &#8220;Hôte&#8221; des exports de Sketchup</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#import-en-xref">Import en xref</a><ul>
+<li><a class="reference internal" href="#insertion-de-la-premiere-xref">Insertion de la première xref</a></li>
+<li><a class="reference internal" href="#insertion-des-suivantes">Insertion des suivantes</a></li>
+<li><a class="reference internal" href="#copie-des-xrefs">Copie des xrefs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#creation-des-calques-necessaires">Création des calques nécessaires</a></li>
+<li><a class="reference internal" href="#tracage-des-lignes-de-construction">Traçage des lignes de construction</a></li>
+<li><a class="reference internal" href="#tracage-des-contours-du-plan">Traçage des contours du plan</a><ul>
+<li><a class="reference internal" href="#tracage-initial-au-kilometre-edition">Traçage initial &#8220;au kilomètre&#8221; (édition)</a></li>
+<li><a class="reference internal" href="#changement-epaisseur-des-lignes-modification">Changement épaisseur des lignes (modification)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cotation">Cotation</a></li>
+<li><a class="reference internal" href="#mise-en-page">Mise en page</a></li>
+<li><a class="reference internal" href="#impression-en-pdf">Impression en pdf</a></li>
+<li><a class="reference internal" href="#imprimer-du-pdf-sur-du-papier">Imprimer du pdf sur du papier</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Initiation Sketchup et Autocad</a><ul>
+      <li>Previous: <a href="003_su1.html" title="Chapitre précédent">Modélisation initiale dans Sketchup</a></li>
+      <li>Next: <a href="005_su2.html" title="Chapitre suivant">Modification avec Sketchup</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

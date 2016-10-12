@@ -51,17 +51,15 @@ Ce coin de Web regroupe toutes les documentations qui peuvent être utiles dans 
 
 Vous y trouverez toutes sortes de documents, sous forme de :
 
-*Guides :*
-  En réponse à une problématique concrète, une liste de tâches pas à pas est indiquée. On reste dans le domaine pratique, par exemple : imprimer à l'échelle sur AutoCAD, exporter vers Google-earth depuis Sketchup, etc. Ces documents sont courts.
+*Guides pas à pas :*
+  Réponse à une problématique concrète. Ces documents sont courts.
 
 *Tutoriels :*
-  Au travers d'un exemple complet à réaliser, les concepts de base et la pratique associée seront traités à chaque étape de la réalisation guidée. C'est le cas de "initiation Sketchup + AutoCAD". Ces documents peuvent faire appel à certains guides, ils sont par essence assez longs.
+  Exemples complets, incluant des concepts de base et la pratique associée. Ces documents peuvent faire appel à certains guides, ils peuvent être assez longs.
 
-*FAQ :*
-  Les Foires Aux Questions regroupent les questions les plus fréquemment posées. Vous retrouverez ces documents pour chaque logiciel concerné.
-
-*Glossaire :*
-  Liste de termes les plus fréquemment employés. Placé côte à côte des FAQ ...
+*FAQ* &  *Glossaires*
+  Recueil des questions les plus fréquemment posées.
+  Liste des termes les plus fréquemment employés.
 
 
 Contents:

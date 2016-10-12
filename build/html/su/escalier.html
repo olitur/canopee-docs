@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Escaliers &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Sketchup" href="index.html" />
+    <link rel="next" title="Création de Scènes" href="creation-scenes.html" />
+    <link rel="prev" title="Déplacement multiple/clonage" href="clonage.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="creation-scenes.html" title="Création de Scènes"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="clonage.html" title="Déplacement multiple/clonage"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Sketchup</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="escaliers">
+<span id="escalier-su"></span><h1>Escaliers</h1>
+<p>Il existe au moins 3 méthodes pour faire un escalier, nous les détaillerons plus bas.</p>
+<p>Plusieurs plugins permettent de réaliser des escalier droits à 1 ou 2 volée, des escaliers hélicoïdaux, mais aucun ne proposent une solution correcte à la problématique des escaliers balancés.</p>
+<p>Si l&#8217;on regarde du coté des logiciels &#8220;Architecture&#8221; (je pense à Archicad, que les autres me renseignent sur les possiblités et limitations de Allplan, Vectorworks, Revit) on trouve aussi des limites aux solutions qu&#8217;ils proposent, notamment dès que l&#8217;on se retrouve dans des géométries de &#8220;guingois&#8221; comme en rénovation. Je crois que même 3DS sèche un peu dans ce domaine (escaliers balancés à construire dans des cages d&#8217;escalier &#8220;tordues&#8221;). de toute façon, même si un logiciel arrive à le dessiner correctement, il faudra trouver l&#8217;artisan que sache le bâtir ... (recherche artisan sanchant faire un escalier sur voûte sarrasine désespéremment ...)</p>
+<p>Nous allons donc explorer les méthodes &#8220;basiques&#8221; pour &#8220;monter&#8221; un escalier.</p>
+<div class="section" id="rectangle-sous-divisions">
+<h2>Rectangle &amp; sous-divisions</h2>
+<p>Cette méthode emploie la sous-division d&#8217;un rectangle en autant de &#8220;marches&#8221;, puis l&#8217;extrusion de ceux-ci. Elle est intuitive, mais laborieuse.</p>
+<ul class="simple">
+<li><strong>R</strong> faire un rectangle représentant l&#8217;emprise de l&#8217;escalier au sol</li>
+<li>groupez-le : <span class="menuselection">double-clic ‣ clic-droit ‣ créer groupe</span> : vous pourrez construire votre escalier &#8220;à l&#8217;extérieur&#8221; et déplacer aisémment au sein de votre construction une fois fini.</li>
+<li><strong>SPC</strong> double-cliquez dessu pour activer l&#8217;édition de ce nouveau groupe</li>
+<li>sélectionnez un bord (long coté) et divisez-le (<span class="menuselection">sélection ‣ clic-droit ‣ diviser</span>), en un nombre de segments égal au nombre de marches (longueur/giron = )</li>
+<li><strong>L</strong> dessiner des lignes partant des extrémités de ces segment, en direction de l&#8217;autre bord (accroche perpendiculaire svp. : i.e le long d&#8217;un axe!) : votre rectangle est divisé en autant de marches.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Sketchup vous indique des points particuliers lorsque vous faites parcourir le pointeur le long d&#8217;un segment : extrémité (point vert), milieu (point cyan). En plus de ce code couleur, vous avez des &#8220;info-bulles&#8221; répétant la nature de ces points. Lisez-les!</p>
+</div>
+<ul class="simple">
+<li><strong>L</strong> sur une extrémité, dessinez une droite verticale (selon axe bleu) repésentant la hauteur totale à franchir</li>
+<li>divisez cette droite en autant de nombre de hauteurs de marche (hauteur totale/hauteur marche = )</li>
+<li><strong>P</strong> extrudez chaque sous-rectangle, en commançant par la marche la plus haute. Souvenez-vous qu&#8217;il doit rester une hauteur à franchir : pour la hauteur d&#8217;extrusion, accrochez-vous sur l&#8217;avant-dernier point, avant le sommet de la droite.</li>
+<li>recommencez pour chaque marche, en allant chercher (avec l&#8217;outil &#8220;push-pull&#8221; activé) chaque extémité</li>
+<li><strong>E</strong> effacez avec l&#8217;outil &#8220;gomme&#8221; chaque ligne verticale provenant de l&#8217;extrusion des marches</li>
+</ul>
+</div>
+<div class="section" id="profil-copie">
+<h2>Profil copié</h2>
+<p>Cette méthode utilise en core l&#8217;outil &#8220;push-pull&#8221;, mais en une seule fois, en se servant d&#8217;un profil représentant les marches. Elle est plus &#8220;élégante&#8221;.</p>
+<ul class="simple">
+<li><strong>R</strong> faites un rectangle représentant l&#8217;emprise de l&#8217;escalier au sol</li>
+<li>groupez-le</li>
+<li><strong>SPC</strong> double-cliquez dessu pour activer l&#8217;édition de ce nouveau groupe</li>
+<li><strong>P</strong> extrudez-le à la hauteur d&#8217;étage à franchir</li>
+<li><strong>L</strong> sur l&#8217;un des (long) coté, dessinez le profil (en &#8220;escalier&#8221;!) représentant la face supérieure d&#8217;une seule contre-marche + marche</li>
+<li><strong>M + CTRL</strong> faites une copie multiple de ces deux segements : sélectionnez le pobas comme point de départ, et le point haut comme fin pour déterminer la longueur et l&#8217;orientation du vecteur de déplacement. Indiquez le nombre de copies (= nombre de marches), par exemple <code class="docutils literal"><span class="pre">14x</span></code> (la technique de la copie multiple est dévleoppée ici <a class="reference internal" href="clonage.html#deplcmt-multipl"><span class="std std-ref">Déplacement multiple/clonage</span></a>)</li>
+<li><strong>P</strong> extrudez le volume situé au-dessus du profil. Enjoy</li>
+</ul>
+</div>
+<div class="section" id="composants">
+<h2>Composants</h2>
+<p>Cette méthode implique la création d&#8217;une marche, la transformation en composant, et la copie de celui-ci. C&#8217;est la technique la plus évoluée ... donc la moins évidente.</p>
+<ul class="simple">
+<li>faites une marche unique (rectangle &#8211;&gt; groupe &#8211;&gt; extrusion) ayant comme dimension la hauteur et le giron souhaité</li>
+<li>transfomez-là en composant : <span class="menuselection">clic-droit sur le groupe ‣ créer un composant</span></li>
+<li>si vous ouvrez la fenêtre &#8220;composant&#8221;, profitez-en pour le renommer en &#8220;marche&#8221;</li>
+<li><strong>M + CTRL</strong> faites une copie multiple de ce composant, de l&#8217;angle bas vers l&#8217;angle haut (= vecteur déplacement), incrémenté du nombre de marche nécéssaires <code class="docutils literal"><span class="pre">12x</span></code> par exemple.</li>
+<li><strong>SPC</strong> éditez n&#8217;importe quelle marche, vous verrez que les transformations s&#8217;opèrent aussi sur les autres ... c&#8217;est la magie des composant.</li>
+<li>si vous voulez rendre une marche différente des autres composants : <span class="menuselection">clic-droit sur le composant ‣ rendre unique</span></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Escaliers</a><ul>
+<li><a class="reference internal" href="#rectangle-sous-divisions">Rectangle &amp; sous-divisions</a></li>
+<li><a class="reference internal" href="#profil-copie">Profil copié</a></li>
+<li><a class="reference internal" href="#composants">Composants</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Sketchup</a><ul>
+      <li>Previous: <a href="clonage.html" title="Chapitre précédent">Déplacement multiple/clonage</a></li>
+      <li>Next: <a href="creation-scenes.html" title="Chapitre suivant">Création de Scènes</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

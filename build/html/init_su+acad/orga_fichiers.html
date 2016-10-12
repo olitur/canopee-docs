@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Organisation des documents &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="organisation-des-documents">
+<h1>Organisation des documents</h1>
+<div class="section" id="principe">
+<h2>Principe</h2>
+<p>Il faut <strong>organiser</strong> les fichiers au sein de plusieurs dossiers, en appliquant une stratégie prévoyant l&#8217;évolution nécessaire du projet. C&#8217;est une habitude à prendre dès le début d&#8217;un nouveau projet, pour en faciliter la gestion. Typiquement, on doit retrouver, au sein d&#8217;un unique répertoire <strong>Projets</strong> :</p>
+<dl class="docutils">
+<dt># <strong>Projet 1</strong> (nom du</dt>
+ <span class="classifier-delimiter">:</span> <span class="classifier">projet, client+projet, date+projet, etc.)</span><dd><ul class="first last">
+<li><dl class="first docutils">
+<dt><em>dessins</em></dt>
+<dd><ul class="first last simple">
+<li>dwg (tous les dessins au format <code class="docutils literal"><span class="pre">\*.dwg</span></code>  d&#8217;AutoCAD) <em>édition</em></li>
+<li>img (tous les fichiers &#8220;images&#8221; : <code class="docutils literal"><span class="pre">\*.jpg</span></code>, <code class="docutils literal"><span class="pre">\*.png</span></code>, <code class="docutils literal"><span class="pre">\*.bmp</span></code>, <code class="docutils literal"><span class="pre">\*.pdf</span></code>, etc.)</li>
+<li>pdf (tous les fichiers <code class="docutils literal"><span class="pre">\*.pdf</span></code> issus d&#8217;un logiciel de dessin (AutoCAD, Sketchup, Archicad, Vectorworks, etc.) <em>visualisation</em></li>
+<li>skp (tous les dessins au format <code class="docutils literal"><span class="pre">\*.skp</span></code> de Sketchup)</li>
+<li>pln (tous les dessins au format <code class="docutils literal"><span class="pre">\*.pln</span></code> d&#8217;Archicad)</li>
+<li><em>toute autre appelation indiquant clairement le type de fichier ...</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><em>écrits</em></dt>
+<dd><ul class="first last simple">
+<li>corresp (toutes les lettres, fax, etc. Si abondante, il vaut mieux prévoir un dossier par destinataire ...)</li>
+<li>dqe (devis quantitatif estimatif)</li>
+<li>plannings</li>
+<li>etc.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+<dt># <strong>Projet 1</strong> (projet de plus faible importance)</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt><em>dessins</em></dt>
+<dd><ul class="first last simple">
+<li>dwg</li>
+<li>pdf</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><em>ecrits</em></dt>
+<dd><ul class="first last simple">
+<li>corresp</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">L&#8217;organisation est une notion personnelle. L&#8217;expérience, la nature du projet ou plus simplement la structure dans laquelle vous travaill(er)ez vous indiquera la marche à suivre ...</p>
+</div>
+</div>
+<div class="section" id="organisation-des-fichiers-pour-ce-tutoriel">
+<h2>Organisation des fichiers pour ce tutoriel</h2>
+<p>Voici une liste prévoyant les principales étapes :</p>
+<p># Il faut télécharger des *.pdf d&#8217;Internet, les transformer dans un format d&#8217;image utilisable dans Sketchup
+# Faire un dessin dans Sketchup
+# Exporter chaque vue (plans, coupes, façades, toiture) en *.dwg
+# Créer un fichier AutoCAD regroupant les &#8220;exports&#8221;
+# imprimer ce dessin en .pdf
+# prévoir des modifications, envois par mail</p>
+<p>Le modèle employé, originaire d&#8217;Autriche, porte une appellation &#8220;barbare&#8221; : changeons-la en une appelation plus facile à retenir, qui reprend aussi les notions d&#8217;espoir lié à ce type de construction (vers un monde meilleur ...). On applelera le projet <strong>Porkeno</strong>, allez savoir pourquoi ...</p>
+<p>Nous aurons donc :</p>
+<a class="reference internal image-reference" href="init_su+acad/img/view-dir-porkeno.png"><img alt="Vue de l'ensemble de l'arborescence complète du projet" class="align-center" src="init_su+acad/img/view-dir-porkeno.png" style="width: 600px;" /></a>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">On notera l&#8217;existance d&#8217;un sous-répertoire dessins&gt;dwg&gt;*xref* . Ce répertoire regroupe les exports 2D Sketchup &#8211;&gt; dwg. Il est important de ne pas le déplacer par la suite. C&#8217;est vrai pour les autres de façon générale (si on insère un fichier ayant un &#8220;chemin&#8221; (arborescence complète depuis la racine du lecteur) particulier, que se passe-t-il si on modifie le chemin de ce fichier inseré ?)</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Organisation des documents</a><ul>
+<li><a class="reference internal" href="#principe">Principe</a></li>
+<li><a class="reference internal" href="#organisation-des-fichiers-pour-ce-tutoriel">Organisation des fichiers pour ce tutoriel</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

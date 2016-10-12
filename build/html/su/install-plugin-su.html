@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installation de plugins &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Sketchup" href="index.html" />
+    <link rel="next" title="Importation “fond de plan” dans Sketchup" href="import-ssqu.html" />
+    <link rel="prev" title="Configuration de Sketchup" href="config-su.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="import-ssqu.html" title="Importation “fond de plan” dans Sketchup"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="config-su.html" title="Configuration de Sketchup"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Sketchup</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="installation-de-plugins">
+<span id="install-plugin-su"></span><h1>Installation de plugins</h1>
+<p>Sketchup est, à la base, un programme simple, voir simpliste diront certains (les pauvres...).</p>
+<p>Néanmoins cette simplicité n&#8217;est qu&#8217;apparente, car le logiciel offre la possibilité (à quelques initiés) de créer de nouveaux outils, de mettre en place de nouvelles fonctions.</p>
+<p>Un certains nombre de &#8220;geeks&#8221; et de chercheurs farfelus passent donc leurs journées (et sans doute une partie de leurs nuits...) à coder pour le bien de l&#8217;humanité, et il en ressort ce que l&#8217;on appelle des <em>scripts Ruby</em>. Ces petits bouts de programme, en langage ruby, ne pesant quasiment rien (quelques Ko tout au plus) s&#8217;ajoutent dans le dossier plugin de Sketchup et donnent accès à de nouvelles fonctions au sein du programme.</p>
+<p>La grande majorité de ceux ci, ainsi que beaucoup d&#8217;autres peuvent également être téléchargés sur le site qui leur est dédié par laboratoire du CRAI, Nancy (merci  a eux !), ou sur sketchucation, dans le forum prévu a cet effet.</p>
+<p>Tous ces scripts se retrouvent globalement sous
+* l&#8217;onglet <strong>Plugin</strong> de Sketchup,
+* mais certains ont des barres d&#8217;outils attitrées (Affichage &#8211;&gt; Barres d&#8217;outils &#8211;&gt;...),
+* d&#8217;autres une place dans le menu contextuel du clic droit,
+* d&#8217;autres encore sont ailleurs (dans ...Outils ou dans ...Dessin par exemple).</p>
+<p>Enfin , il est parfois nécessaire de les activer via le menu ...Fenêtre &#8211;&gt; ...Préferences &#8211;&gt; ...Extensions (c&#8217;est le cas pour la Sandbox par exemple)</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Sketchup, logiciel américain, est agrémenté par des plugins venant des 4 coins de la planète : le langage universel reste <strong>l&#8217;anglais</strong>, et la majorité des plugins ne sont pas traduits en français ... c&#8217;est la rançon de la gratuité ...</p>
+</div>
+<div class="section" id="installation">
+<h2>Installation</h2>
+<div class="section" id="methode-traditionnelle">
+<h3>Méthode traditionnelle</h3>
+<p>L&#8217;installation d&#8217;un script Ruby est est simple : il faut copier le fichier voulu (extension <code class="file docutils literal"><span class="pre">*.rb</span></code>) dans le fichier <code class="file docutils literal"><span class="pre">plugin</span></code> de Sketchup (logiquement situé dans :file:<a href="#id1"><span class="problematic" id="id2">`</span></a>C:Program filesGoogleGoogle Sketchup(6 ou 7)Plugins).</p>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p>Certains scripts ruby ont des <strong>dépendances</strong> , i.e : leur exécution nécéssite l&#8217;installation d&#8217;autres scripts &#8220;additionnels&#8221; : lisez bien les recomandations des auteurs quand à l&#8217;installations des plugins/scripts</p>
+<p class="last">Version de Sketchup : certains scripts sont spécifiques à une version particulère de Sketchup</p>
+</div>
+<p>Certains plugins sont très complets, ils comportent même une barre d&#8217;outil dédiée. Leur format est souvent sous forme de <code class="file docutils literal"><span class="pre">*.zip</span></code>, il faut à ce moment là <strong>décompresser</strong> le contenu entier du zip à l&#8217;intérieur du dossier plugin. On y retrouve alors un script ruby et un dossier contenant d&#8217;autres scripts, ainsi que des images (icônes de barre d&#8217;outils)</p>
+</div>
+<div class="section" id="methode-installateur">
+<h3>Méthode &#8220;installateur&#8221;</h3>
+<p>Certains plugins, en plus d&#8217;être accompagnés de barres d&#8217;outils, comportent des fenêtres de dialogue lors de leur exécution. Nous sommes en présence de minis logiciels venant se greffer sur l&#8217;interface de Sketchup. Pour en faciliter l&#8217;installation (qui requiert souvent d&#8217;effectuer plus d&#8217;opérations que celles précitées auparavant) les développeurs ont poussé le bouchanon jusquà proposer des installateurs &#8220;autonomes&#8221;.</p>
+<p>Le processus consiste
+* à double-cliquer sur l&#8217;installateur,
+* puis à  valider le chemin où se trouve Sketchup... c&#8217;est tout!</p>
+<p>(Meta)Plugins livrés sous ce format : les barres d&#8217;outls SCF, 1001 tools, etc.</p>
+</div>
+</div>
+<div class="section" id="liste-des-scripts">
+<h2>Liste des scripts</h2>
+<p><strong>NON</strong> exhaustive ! voir plus bas quelques liens WWW</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Symetrie de la sélection</dt>
+<dd><ul class="first last simple">
+<li>Usage : Complète efficacement l&#8217;outil un peu étrange dont Sketchup est affublé à l&#8217;origine (« retourner le long de » ou « flip along »...).</li>
+<li>Méthode : Sélectionner l&#8217;objet à « symétriser » &#8212;&gt; clic droit &#8211;&gt; « symétrie de la sélection » &#8211;&gt; définir le plan de symétrie en traçant deux lignes, librement, dans l&#8217;espace &#8211;&gt; choisir de conserver ou non l&#8217;élément d&#8217;origine.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Compo spray</dt>
+<dd><ul class="first last simple">
+<li>Usage : Permet de poser extrêmement rapidement et efficacement des composants dans un modèle. Indispensable pour peupler une maquette d&#8217;arbres, de personnages ou de n&#8217;importe quoi d&#8217;autre. Comporte des fonctions de rotation et de changement d&#8217;échelles paramétriques qui donneront l&#8217;impression que chaque petit composant est différent de ses voisins, renforçant ainsi l&#8217;illusion d&#8217;un dur labeur accompli...</li>
+<li>Méthode : barre d&#8217;outils (« Draw » &#8211;&gt; « Compo spray ») &#8211;&gt; dans la fenêtre de dialogue, choisir le composant, le type de projection voulue, les paramètres d&#8217;aléa et...enjoy ! (doc. très complète dans le fichier du plugin)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Purger</dt>
+<dd><ul class="first last simple">
+<li>Usage : Supprime les éléments inutilisés dans le model (textures, composants, styles...) qui ne manquent pas de se stocker stupidement un peu partout dès que vous les utilisez, ne serait ce qu&#8217;une fois, et ne disparaissent pas tout seuls par la suite (ça peut alourdir considérablement un fichier).</li>
+<li>Méthode : Rien de plus simple,  « Plugins » &#8211;&gt; « Purger »...</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Courbes de bezier</dt>
+<dd><ul class="first last simple">
+<li>Usage : Ajoute plusieurs méthodes de dessins de courbes aux outils Sketchup. Permet de dépasser largement les limites évidentes de l&#8217;outil arc d&#8217;origine de Sketchup, et ainsi de s&#8217;épanouir dans le dessin spontané de formes courbes complexes.</li>
+<li>Méthode : Sélectionner un des outils de dessin de courbe et improviser...</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Fenetreur</dt>
+<dd><ul class="first last simple">
+<li>Usage:Vous en avez assez de toujours galérer pour créer un ensemble de fenêtres ou un mur rideau un peu régulier ? Pas de soucis, ce plugin est pour vous. A partir d&#8217;une surface, vous pouvez créer directement une (ou plusieurs) fenêtre, en paramétrant le nombre d&#8217;éléments, la taille ou les matériaux de ceux ci.</li>
+<li>Méthode : sélectionner une ou plusieurs surfaces -&gt; clic droit -&gt; windowizer -&gt; définir les paramètres des fenêtres.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Grey scale</dt>
+<dd><ul class="first simple">
+<li>Usage : Fonctionne exactement comme un passage en noir et blanc dans Photoshop, mais applique à tout le model, ajoutant ainsi la petite note de style qui manquait à votre 3D...</li>
+</ul>
+<p class="last">Le phénomène est de plus réversible à tout moment, en revenant simplement dans le plugin.
+- Méthode : Plugin &#8211;&gt; Grey mode. Petit plus : toute couleur rajoutée après le passage en mode gris est affichée telle quelle, il est donc possible de mettre en évidence facilement des éléments particuliers du projet.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Face de coupe</dt>
+<dd><ul class="first last simple">
+<li>Usage : Non, ce n&#8217;est pas une vieille insulte des années 80, mais un outil qui crée une face à l&#8217;intersection du plan de coupe, « refermant » ainsi visuellement les murs et autres géométries, qui restent sinon désespérement creuses... Attention, cette face ne se déplace pas avec le plan de section... Si vous coupez ensuite ailleurs, il faudra refaire l&#8217;opération.</li>
+<li>Méthode : Faire une coupe &#8211;&gt; sélectionner le plan de coupe &#8211;&gt; clic droit &#8211;&gt; « add a section cut face » &#8211;&gt; choisir sa couleur et son calque.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Projection / extension</dt>
+<dd><ul class="first last simple">
+<li>Usage : Permet (entre autres) d&#8217;extruder une ligne ou un ensemble de lignes. Fonctionne globalement comme l&#8217;outil pousser/tirer, mais en moins restrictif. Très utile pour récupérer des données d&#8217;Autocad sans perdre des heures à recréer toutes les faces nécessaires à l&#8217;extrusion d&#8217;un mur. Ce plugin offre également la possibilite d&#8217;extruder des faces (une ou  plusieurs en même temps) selon un axe quelconque (et pas systématiquement uniquement leur normale...)</li>
+<li>Méthode : Barre d&#8217;outil &#8211;&gt; sélectionner les lignes /faces à extruder &#8211;&gt; définir la direction et la distance voulue.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Supprimer les lignes coplanaires</dt>
+<dd><ul class="first last simple">
+<li>Usage : Principalement utile si vous devez importer des données créées dans d&#8217;autres applications, via le format 3Ds par exemple. En effet, ces opérations d&#8217;import/export se traduisent souvent par des phénomènes de triangulation des faces, qui grèvent  sauvagement l&#8217;effet visuel, et la manipulation des éléments dans Sketchup.</li>
+<li>Méthode : Sélectionner l&#8217;objet à « nettoyer » &#8211;&gt; clic droit &#8211;&gt;  « détruire segments coplanaires ».</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Sandbox :</dt>
+<dd><ul class="first last">
+<li><p class="first">Usage : Set d&#8217;outils multi-usage de création de terrains et de bien d&#8217;autres choses si on a de l&#8217;imagination... Ce n&#8217;est pas à proprement parler un script Ruby, puisqu&#8217;il est intégré de base dans Sketchup, mais il se comporte comme tel, car il n&#8217;est pas affiché d&#8217;origine. Il propose deux méthodes distinctes, l&#8217;une se basant sur la construction d&#8217;une grille déformable, l&#8217;autre sur l&#8217;exploitation de courbes de niveaux.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Méthode :</dt>
+<dd><ul class="first last simple">
+<li>Grille : Tracer une grille aux dimensions voulues &#8211;&gt;  sélectionner l&#8217;outil de déformation et lui donner une taille -&gt; cliquer sur une zone et définir l&#8217;élévation.</li>
+<li>Courbes de niveaux : Sélectionner l&#8217;ensemble des courbes &#8211;&gt; sélectionner l&#8217;outil correspondant &#8211;&gt; éventuellement, afficher les arrêtes cachées pour pouvoir supprimer la géométrie inutile.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>etc.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">Voir aussi</p>
+<dl class="last docutils">
+<dt><a class="reference external" href="http://www.crai.archi.fr/RubyLibraryDepot/Ruby/fr_RUBY_Library_Depot.html">http://www.crai.archi.fr/RubyLibraryDepot/Ruby/fr_RUBY_Library_Depot.html</a></dt>
+<dd>site Web maintenu par <strong>Didier BUR</strong> (enseignant/chercheur à l&#8217;école d&#8217;archi de Nancy). on peut y trouver les contributions des développeurs de scripts Ruby pour SketchUp depuis 2004. Il y a en tout <strong>494</strong> scripts téléchrgeables gratuitement. Le plugin <em>fr_SectionCutFace.rb</em> est installé sur <a class="reference internal" href="export-dwg.html#export-dwg-coupes"><span class="std std-ref">cette page</span></a></dd>
+<dt><a class="reference external" href="http://www.scriptspot.com/">http://www.scriptspot.com/</a></dt>
+<dd>des scripts</dd>
+<dt><a class="reference external" href="http://www.plugins.ro/">http://www.plugins.ro/</a></dt>
+<dd>encore</dd>
+<dt><a class="reference external" href="http://archsymb.com/ruby/">http://archsymb.com/ruby/</a></dt>
+<dd>d&#8217;autres</dd>
+<dt><a class="reference external" href="http://www.formfonts.com/browse/browseScripts.php?function=category">http://www.formfonts.com/browse/browseScripts.php?function=category</a></dt>
+<dd>certains payants</dd>
+<dt><a class="reference external" href="http://www.objectivenetworks.net/indexScripts.php">http://www.objectivenetworks.net/indexScripts.php</a></dt>
+<dd>d&#8217;autres aussi</dd>
+<dt><a class="reference external" href="http://www.smustard.com/">http://www.smustard.com/</a></dt>
+<dd>quoiqu&#8217;il puisse y avoir les 2</dd>
+<dt><a class="reference external" href="http://www.pushpullbar.com/">http://www.pushpullbar.com/</a></dt>
+<dd>des scripts sur un forum ? ben oui, et franchement pas les moins mauvais, comme &#8220;joint push pull&#8221;</dd>
+<dt><a class="reference external" href="http://members.cox.net/rick.wilson/">http://members.cox.net/rick.wilson/</a></dt>
+<dd>windowizer, tu me bluffera toujours ....</dd>
+<dt><a class="reference external" href="http://www.iesve.com/Software/Free-and-trial-software/">http://www.iesve.com/Software/Free-and-trial-software/</a></dt>
+<dd>par des pros : analyse de la consommation énergétique globale de votre projet</dd>
+<dt><a class="reference external" href="http://www.pixdim.com/en/home.html">http://www.pixdim.com/en/home.html</a></dt>
+<dd>besoin de mesure 3D d&#8217;après des photos : la photogrammétrie c&#8217;est possible aussi dans Sketchup</dd>
+<dt><a class="reference external" href="http://www.tensile-structures.de/help.html">http://www.tensile-structures.de/help.html</a></dt>
+<dd>architecture &#8220;tensile&#8221; (toile tendues) avec le plugin &#8220;soap &amp; bubble skin&#8221;</dd>
+<dt><a class="reference external" href="http://www.northernlightstimberframing.com/su/">http://www.northernlightstimberframing.com/su/</a></dt>
+<dd>un ancien informaticien devenu charpentier : avec la famille de plugins &#8220;TF rubies&#8221; vous pourrez non seulement dessiner, mais aussi extraire les plans de débits de vos pièces de bois! plus besoin de Cadwork! de la folie!</dd>
+<dt><a class="reference external" href="http://www.drawmetal.com/">http://www.drawmetal.com/</a></dt>
+<dd>vous avez envie de dessiner du fer forgé?</dd>
+<dt><a class="reference external" href="http://1oo1bit.com/default.html">http://1oo1bit.com/default.html</a></dt>
+<dd>plein (trop?) en une seule barre</dd>
+<dt><a class="reference external" href="http://www.special.eclipse.co.uk/sketchup_training.html">http://www.special.eclipse.co.uk/sketchup_training.html</a> (et cliquez sur Downloads)</dt>
+<dd>5 barres d&#8217;outils qui regroupent les meilleurs plugins, mais pas tous ....</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation de plugins</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a><ul>
+<li><a class="reference internal" href="#methode-traditionnelle">Méthode traditionnelle</a></li>
+<li><a class="reference internal" href="#methode-installateur">Méthode &#8220;installateur&#8221;</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#liste-des-scripts">Liste des scripts</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Sketchup</a><ul>
+      <li>Previous: <a href="config-su.html" title="Chapitre précédent">Configuration de Sketchup</a></li>
+      <li>Next: <a href="import-ssqu.html" title="Chapitre suivant">Importation &#8220;fond de plan&#8221; dans Sketchup</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

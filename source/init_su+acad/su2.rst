@@ -1,2 +1,0 @@
-Modification avec Sketchup
-==========================

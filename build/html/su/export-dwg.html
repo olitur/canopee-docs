@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Export vers le dwg &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Sketchup" href="index.html" />
+    <link rel="next" title="FAQ Sketchup" href="faq_su.html" />
+    <link rel="prev" title="Création de Scènes" href="creation-scenes.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="faq_su.html" title="FAQ Sketchup"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="creation-scenes.html" title="Création de Scènes"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Sketchup</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="export-vers-le-dwg">
+<span id="export-dwg"></span><h1>Export vers le dwg</h1>
+<p>Un modèle 3D, c&#8217;est bien pour la visualisation, mais ça peut être pratique de l&#8217;exporter vers un logiciel de dessin plus abouti tel qu&#8217;AutoCAD. On pourra ainsi le dimensionner avec aisance, l&#8217;imprimer en pdf ou en papier à l&#8217;échelle, etc.</p>
+<p>Sachant que l&#8217;export consiste à extraire une géométrie 2D d&#8217;un modèle tridimensionnel, Il existe 2 méthodes pour aboutir (à peu près) au même résultat :</p>
+<div class="figure">
+<img alt="../_images/ic_bo_vues.png" src="../_images/ic_bo_vues.png" />
+</div>
+<div class="section" id="vues-predefinies-avant-arriere-cotes">
+<h2>Vues prédéfinies (avant/arrière, cotés)</h2>
+<blockquote>
+<div><ul>
+<li><p class="first"><span class="menuselection">caméra ‣ projection parrallèle</span> (aucune déformation)</p>
+</li>
+<li><p class="first">choisir une vue prédéfinie, par exemple facade avant (correspond par exemple à la facade Ouest du modèle)</p>
+</li>
+<li><dl class="first docutils">
+<dt><span class="menuselection">exporter ‣ graphique 2D ...</span></dt>
+<dd><ul class="first last simple">
+<li>type d&#8217;exportation : AutoCAD dwg</li>
+<li>options (par bonheur, Sketchup mémorise les derniers paramètres : on ne recommencera pas pour l&#8217;export suivant!) :</li>
+<li>échelle réelle 1:1</li>
+<li>version : autocad 2007</li>
+<li>lignes profilées : aucunes</li>
+<li>arêtes prolongées : à décocher</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">enregistrez le fichier (idéalement, dans un sous-dossier &#8220;xrefs&#8221; relatif au dessin autocad regroupant toutes ces vues) en <code class="docutils literal"><span class="pre">&lt;projet&gt;_facade-ouest.dwg</span></code>. Pour une arborescence complète d&#8217;un projet, reportez-vous à cet <a class="reference internal" href="../init_su+acad/002_demarrage.html#arborescence-projet"><span class="std std-ref">exemple</span></a></p>
+</li>
+<li><p class="first">choisissez une autre vue, et recommencez les étapes pour l&#8217;export</p>
+</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Il est préferable d&#8217;organiser votre dessin avec des scènes, lesquelles contiendront les vues prédéfinies de votre modèle. C&#8217;est plus PRO! Reportez-vous à <a class="reference internal" href="creation-scenes.html#creation-scenes"><span class="std std-ref">Création de Scènes</span></a> pour voir comment c&#8217;est possible.</p>
+</div>
+<p>Avec la richesse des vues prédefinies enregistrées dans des scènes correspondantes, (=travail préalable) l&#8217;export vers AutoCAD est mieux contrôlé.</p>
+<div class="figure">
+<img alt="../_images/ic_coupe.png" src="../_images/ic_coupe.png" />
+</div>
+</div>
+<div class="section" id="coupes">
+<span id="export-dwg-coupes"></span><h2>Coupes</h2>
+<p>Il suffit de faire une coupe en</p>
+<ul class="simple">
+<li>cliquant sur l&#8217;icône ci-dessus</li>
+<li>placer-là au bon endroit sur le modèle (vers + 1 m de hauteur pour faire un plan, etc.), (on peut bloquer son orientation en appuyant sur la touche <code class="kbd docutils literal"><span class="pre">maj</span></code> )</li>
+<li>et de faire <span class="menuselection">fichier ‣ exporter ‣ tranche de section</span> (au format <code class="file docutils literal"><span class="pre">*.dwg</span></code>)</li>
+</ul>
+<p>Cette méthode à l&#8217;avantage d&#8217;être rapide, elle montre néanmoins les limites de Sketchup : l&#8217;export ne concerne que la &#8220;peau&#8221; extérieure de chaque volume (c&#8217;est normal, Sketchup est un modeleur 3D <strong>surfacique</strong>, les volumes sont &#8220;creux&#8221;)</p>
+<p>On peut remédier à cet inconvénient en installant le plugin <strong>fr_SectionCutFace.rb</strong> que l&#8217;on peut trouver sur le site suivant <a class="reference external" href="http://www.crai.archi.fr/RubyLibraryDepot/Ruby/FR_arc_page.htm">http://www.crai.archi.fr/RubyLibraryDepot/Ruby/FR_arc_page.htm</a> ou, pour plus de facilité, directement <a class="reference download internal" href="../_downloads/fr_SectionCutFace.rb" download=""><code class="xref download docutils literal"><span class="pre">ici</span></code></a> .</p>
+<p>Ce plugin, une fois installé (voir la méthode <a class="reference internal" href="install-plugin-su.html#install-plugin-su"><span class="std std-ref">Installation de plugins</span></a>), est uniquement activé lorsque l&#8217;on fait un <code class="kbd docutils literal"><span class="pre">clic-droit</span></code> sur la coupe et que l&#8217;on choisit l&#8217;option <strong class="command">face de section</strong>. Cette commande ajoute une face entre les arêtes générées par la coupe (nécessite un contour continu pour créer des faces &#8220;cohérentes&#8221;)</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Export vers le dwg</a><ul>
+<li><a class="reference internal" href="#vues-predefinies-avant-arriere-cotes">Vues prédéfinies (avant/arrière, cotés)</a></li>
+<li><a class="reference internal" href="#coupes">Coupes</a></li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Sketchup</a><ul>
+      <li>Previous: <a href="creation-scenes.html" title="Chapitre précédent">Création de Scènes</a></li>
+      <li>Next: <a href="faq_su.html" title="Chapitre suivant">FAQ Sketchup</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

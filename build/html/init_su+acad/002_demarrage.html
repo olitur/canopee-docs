@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Démarrage &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Initiation Sketchup et Autocad" href="index.html" />
+    <link rel="next" title="Modélisation initiale dans Sketchup" href="003_su1.html" />
+    <link rel="prev" title="Introduction" href="001_intro.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="003_su1.html" title="Modélisation initiale dans Sketchup"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="001_intro.html" title="Introduction"
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Initiation Sketchup et Autocad</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="demarrage">
+<span id="demarrage-init-su-acad"></span><h1>Démarrage</h1>
+<p>Récupérons les notices en *.pdf sur le site Web pour nous servir de base de travail et à dessinons notre maison sur Sketchup (c&#8217;est là que les choses se compliquent!)</p>
+<div class="section" id="recuperation-des-fichiers-du-projet">
+<h2>Récupération des fichiers du projet</h2>
+<p>Il faut récupérer les *.pdf du projet, et les dessiner sur sketchup.</p>
+<p>Rendez-vous sur : <a class="reference external" href="http://www.canopee.org/fichiers/teb-d/aides/acad/init_su+acad/dessins/pdf/">http://www.canopee.org/fichiers/teb-d/aides/acad/init_su+acad/dessins/pdf/</a> et récupérez (<span class="menuselection">clic-droit ‣ enregistrer sous</span>) les plans et façades (nom commençant par <cite>fixhaus_*</cite> ) ainsi que la notice générale du modèle &#8220;Berchtold Type 2&#8221; sur <a class="reference external" href="http://www.fixhaus.at/Berchtold%20Typ2.pdf">http://www.fixhaus.at/Berchtold%20Typ2.pdf</a></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Vous êtes perdus ? Cliquez sur <strong>Parent Directory</strong> pour remonter dans l&#8217;arborescence des répertoires de cet espace de stockage</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Avertissement</p>
+<p class="last">L&#8217;emplacement des fichiers nécessaires à l&#8217;exécution de ce tutoriel est situé sur un serveur distant. Il vaut mieux les télécharger sur votre poste, en local, pour éviter les désagréments consécutifs à une coupure de réseau ...</p>
+</div>
+</div>
+<div class="section" id="organisation-prealable-des-documents">
+<h2>Organisation préalable des documents</h2>
+<p>Vous aller créer plusieurs fichiers, certains feront appel à d&#8217;autres, etc. Il convient d&#8217;adopter une <em>arborescence type</em> (dossiers &amp; fichiers), une <em>convention de nommage</em> (fichiers) et de ne plus la changer! Par la suite, vous pourrez appliquer une autre logique, mais suivez celle qui suit.</p>
+<div class="section" id="principe">
+<h3>Principe</h3>
+<p>Il faut <strong>organiser</strong> les fichiers au sein de plusieurs dossiers, en appliquant
+une stratégie prévoyant l&#8217;évolution nécessaire du projet. C&#8217;est une habitude à
+prendre dès le début d&#8217;un nouveau projet, pour en faciliter la gestion.
+Typiquement, on doit retrouver, au sein d&#8217;un unique répertoire <strong>Projets</strong> :</p>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt><strong>Projet 1</strong> (nom du</dt>
+ <span class="classifier-delimiter">:</span> <span class="classifier">projet, client+projet, date+projet, etc.)</span><dd><ul class="first last">
+<li><dl class="first docutils">
+<dt><em>dessins</em></dt>
+<dd><ul class="first last simple">
+<li>dwg (tous les dessins au format <code class="docutils literal"><span class="pre">\*.dwg</span></code>  d&#8217;AutoCAD) <em>édition</em></li>
+<li>img (tous les fichiers &#8220;images&#8221; : <code class="docutils literal"><span class="pre">\*.jpg</span></code>, <code class="docutils literal"><span class="pre">\*.png</span></code>, <code class="docutils literal"><span class="pre">\*.bmp</span></code>, <code class="docutils literal"><span class="pre">\*.pdf</span></code>, etc.)</li>
+<li>pdf (tous les fichiers <code class="docutils literal"><span class="pre">\*.pdf</span></code> issus d&#8217;un logiciel de dessin (AutoCAD, Sketchup, Archicad, Vectorworks, etc.) <em>visualisation</em></li>
+<li>skp (tous les dessins au format <code class="docutils literal"><span class="pre">\*.skp</span></code> de Sketchup)</li>
+<li>pln (tous les dessins au format <code class="docutils literal"><span class="pre">\*.pln</span></code> d&#8217;Archicad)</li>
+<li><em>toute autre appellation indiquant clairement le type de fichier ...</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><em>écrits</em></dt>
+<dd><ul class="first last simple">
+<li>corresp (toutes les lettres, fax, etc. Si abondante, il vaut mieux prévoir un dossier par destinataire ...)</li>
+<li>dqe (devis quantitatif estimatif)</li>
+<li>plannings</li>
+<li>etc.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Projet 2</strong> (projet de plus faible importance)</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt><em>dessins</em></dt>
+<dd><ul class="first last simple">
+<li>dwg</li>
+<li>pdf</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><em>ecrits</em></dt>
+<dd><ul class="first last simple">
+<li>corresp</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">L&#8217;organisation est une notion personnelle. L&#8217;expérience, la nature du projet ou plus simplement la structure dans laquelle vous travaill(er)ez vous indiquera la marche à suivre ...</p>
+</div>
+</div>
+<div class="section" id="organisation-des-fichiers-pour-ce-tutoriel">
+<h3>Organisation des fichiers pour ce tutoriel</h3>
+<p>Voici une liste prévoyant les principales étapes :</p>
+<ol class="arabic simple">
+<li>Il faut télécharger des *.pdf d&#8217;Internet, les transformer dans un format d&#8217;image utilisable dans Sketchup</li>
+<li>Faire un dessin dans Sketchup</li>
+<li>Exporter chaque vue (plans, coupes, façades, toiture) en *.dwg</li>
+<li>Créer un fichier AutoCAD regroupant les &#8220;exports&#8221;</li>
+<li>imprimer ce dessin en .pdf</li>
+<li>prévoir des modifications, envois par mail</li>
+</ol>
+<p>Le modèle employé, originaire d&#8217;Autriche, porte une appellation &#8220;barbare&#8221; :
+changeons-la en une appellation plus facile à retenir, qui reprend aussi les
+notions d&#8217;espoir lié à ce type de construction (vers un monde meilleur ...). On
+appellera le projet <strong>Porkeno</strong>, allez savoir pourquoi ...</p>
+<p id="arborescence-projet">Nous aurons donc</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>|
+`-- porkeno_init_su+acad
+   |-- 00_description.txt
+   |-- dessins
+   |   |-- dwg
+   |   |   |-- porkeno_plan-coupe-facad_o.turlier_25mai09_12h00.dwg
+   |   |   `-- xref
+   |   |       |-- porkeno_plan_R+0_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_plan_R+1_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_plan_toiture_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_coupe_AA_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_coupe_BB_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_facad_Sud_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_facad_Ouest_export-2d-su_o.turlier_25mai.dwg
+   |   |       |-- porkeno_facad_Est_export-2d-su_o.turlier_25mai.dwg
+   |   |-- img
+   |   |   |-- porkeno_fac_est.jpg
+   |   |   |-- porkeno_fac_nord.jpg
+   |   |   |-- porkeno_fac_ouest.jpg
+   |   |   |-- fixhaus-berchtold2_fac_sud.jpg
+   |   |   |-- fixhaus-berchtold2_perspective.pdf
+   |   |   |-- fixhaus-berchtold2_plan_r+0.jpg
+   |   |   `-- fixhaus-berchtold2_plan_r+1.jpg
+   |   |-- pdf
+   |   |   |-- fixhaus-berchtold2_fac_est.pdf
+   |   |   |-- fixhaus-berchtold2_fac_nord.pdf
+   |   |   |-- fixhaus-berchtold2_fac_ouest.pdf
+   |   |   |-- fixhaus-berchtold2_fac_ouest_.pdf
+   |   |   |-- fixhaus-berchtold2_fac_sud.pdf
+   |   |   |-- fixhaus-berchtold2_plan_r+0.pdf
+   |   |   |-- fixhaus-berchtold2_plan_r+1.pdf
+   |   |   |-- porkeno_plan_r+0_A3H_1-50e_o.turlier_14mai09_12h00.pdf
+   |   |   `-- porkeno_plan_r+0_A4H_1-100e_o.turlier_14mai09_12h00.pdf
+   |   `-- skp
+   |       |-- porkeno_o.turlier_25mai09_11h00.skp
+   `-- ecrits
+      |-- porkeno_dqe_o.turlier_19mai09.ods
+      `-- porkeno_lettre-accompagnement-envoi-plans-a3_o.t_19mai09.odt
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>On notera l&#8217;existence d&#8217;un sous-répertoire dessins&gt;dwg&gt;xref .</p>
+<p>Ce répertoire regroupe les exports 2D Sketchup &#8211;&gt; dwg. Il est important de ne pas le déplacer par la suite.</p>
+<p>Vous pouvez renommer tous les fichiers de <code class="docutils literal"><span class="pre">fixhaus-berchtold2_..</span></code> à <code class="docutils literal"><span class="pre">porkeno_...</span></code> pour une meilleure &#8220;consistance&#8221; de votre projet.</p>
+<p class="last">N&#8217;oubliez pas d&#8217;inclure les auteurs originaux dans le fichier <code class="docutils literal"><span class="pre">00_description.txt</span></code></p>
+</div>
+</div>
+</div>
+<div class="section" id="sketchup">
+<h2>Sketchup</h2>
+<dl class="docutils">
+<dt>Ce logiciel constitue un excellent point d&#8217;entrée dans le monde de la DAO.</dt>
+<dd><ul class="first last">
+<li><p class="first">Il est très <em>intuitif</em> : vous arriverez à produire un dessin en une après-midi.</p>
+</li>
+<li><p class="first">c&#8217;est un logiciel <em>d&#8217;esquisse</em> (conception globale): cela correspond parfaitement au phasage du déroulement d&#8217;un projet de dessin architectural</p>
+</li>
+<li><p class="first">les possibilités d&#8217;export vers d&#8217;autres logiciels sont grandes (2D : formats d&#8217;image, de dessin(*.dwg); 3D : *.dwg, *.dae (3d importable dans Photoshop notamment), etc.)</p>
+</li>
+<li><dl class="first docutils">
+<dt>Ouverture :</dt>
+<dd><ul class="first last simple">
+<li>développé dans un langage orienté &#8220;objet&#8221;, facile à employer : <a class="reference external" href="http://sketchup.google.com/intl/fr/download/rubyscripts.html">Ruby</a>,  avec un développement logiciel ouvert à tout le monde <a class="reference external" href="http://code.google.com/intl/fr/apis/sketchup/docs/index.html">API</a> depuis 2006 : Il y a plusieurs centaines de &#8220;plugins&#8221; (gratuits ou payants) qui améliorent grandement la version de base (ex: voir <a class="reference internal" href="../su/config-su.html#config-su-02"><span class="std std-ref">Configuration avancée</span></a>).</li>
+<li>prix très faible : ~ 600 € pour la version Pro (export vers le *.dwg) et gratuit pour la version grand public.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+<div class="section" id="configuration-initiale">
+<h3>Configuration initiale</h3>
+<p>Suive ce guide : <a class="reference internal" href="../su/config-su.html"><span class="doc">Configuration de Sketchup</span></a></p>
+</div>
+<div class="section" id="importation-du-fond-de-plan">
+<span id="init-su-acad-import-img-su"></span><h3>Importation du &#8220;fond de plan&#8221;</h3>
+<p>Une fois les documents *.pdf du projet sur votre disque dur, suivez : <a class="reference internal" href="../su/import-ssqu.html"><span class="doc">Importation &#8220;fond de plan&#8221; dans Sketchup</span></a> pour avancer à l&#8217;étape suivante.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Démarrage</a><ul>
+<li><a class="reference internal" href="#recuperation-des-fichiers-du-projet">Récupération des fichiers du projet</a></li>
+<li><a class="reference internal" href="#organisation-prealable-des-documents">Organisation préalable des documents</a><ul>
+<li><a class="reference internal" href="#principe">Principe</a></li>
+<li><a class="reference internal" href="#organisation-des-fichiers-pour-ce-tutoriel">Organisation des fichiers pour ce tutoriel</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sketchup">Sketchup</a><ul>
+<li><a class="reference internal" href="#configuration-initiale">Configuration initiale</a></li>
+<li><a class="reference internal" href="#importation-du-fond-de-plan">Importation du &#8220;fond de plan&#8221;</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Initiation Sketchup et Autocad</a><ul>
+      <li>Previous: <a href="001_intro.html" title="Chapitre précédent">Introduction</a></li>
+      <li>Next: <a href="003_su1.html" title="Chapitre suivant">Modélisation initiale dans Sketchup</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Préparation de la perspective &#8212; documentation canopee-docs 1.0.1 alpha</title>
+    
+    <link rel="stylesheet" href="../_static/jinja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="top" title="documentation canopee-docs 1.0.1 alpha" href="../index.html" />
+    <link rel="up" title="Photoshop" href="index.html" />
+    <link rel="next" title="Insertion dans le site" href="insertion.html" />
+    <link rel="prev" title="Détourage d’objets, personnages, etc." href="detourage.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="insertion.html" title="Insertion dans le site"
+             accesskey="N">suivant</a></li>
+        <li class="right" >
+          <a href="detourage.html" title="Détourage d’objets, personnages, etc."
+             accesskey="P">précédent</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentation canopee-docs 1.0.1 alpha</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Photoshop</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="preparation-de-la-perspective">
+<span id="prepa-image-su-psd"></span><h1>Préparation de la perspective</h1>
+<div class="section" id="sketchup">
+<h2>Sketchup</h2>
+<div class="section" id="importation-du-modele">
+<h3>Importation du modèle</h3>
+<a class="reference internal image-reference" href="../_images/mdl01-maison-ecoconst-vast_ombre+couleur.png"><img alt="../_images/mdl01-maison-ecoconst-vast_ombre+couleur.png" src="../_images/mdl01-maison-ecoconst-vast_ombre+couleur.png" style="width: 70%;" /></a>
+<ul class="simple">
+<li>télécharger un modèle de maison type sur &#8220;l&#8217;entrepôt 3D&#8221; de google <em>3D Warehouse</em>, on prendra un modèle moderne, dans l&#8217;esprit &#8220;écoconstruction&#8221;. Cliquez sur le lien et enregistrez le fichier sur votre disque dur : <a class="reference external" href="http://sketchup.google.com/3dwarehouse/details?mid=77f4a9f5ee868f9e972ec726e7a08cca&amp;prevstart=0">http://sketchup.google.com/3dwarehouse/details?mid=77f4a9f5ee868f9e972ec726e7a08cca&amp;prevstart=0</a></li>
+<li>vous pouvez utiliser tout autre &#8220;matériau&#8221;. Allez voir la section <a class="reference internal" href="../init_su+acad/002_demarrage.html#demarrage-init-su-acad"><span class="std std-ref">Démarrage</span></a> du projet &#8220;porkeno&#8221; pour voir si vous avez effectué quelquechose dans ce domaine ...</li>
+<li>on ouvre le dessin dans sketchup, et on le dispose de 3/4 arrière, pour simuler une perspective.</li>
+</ul>
+<p>Ce placement est important car dans le résultat final, on tentera de faire apparaître une extrémité en premier plan en couleur+texture, tandis que l&#8217;arrière-plan du modèle apparaîtra en blanc+arêtes et flou en prime. (voir le résultat final) .</p>
+<p>Une fois l&#8217;orientation choisie, on ne bougera plus le modèle!</p>
+<p>L&#8217;idéal est de créer une scène.</p>
+</div>
+<div class="section" id="creation-des-scenes">
+<h3>Création des scènes</h3>
+<p>Par le menu <span class="menuselection">Fichier &gt; Exporter &gt; Graphique 2D</span>, on va faire <strong>3</strong> images.</p>
+<p>Ces images seront exportées à partir de &#8220;scènes&#8221; qui correspondent à la même perspective, mais avec des styles différents.</p>
+<ol class="arabic simple">
+<li><strong>Perspective couleur</strong></li>
+</ol>
+<p>Cette scène sert base de travail, on y peaufine  le positionnement du modèle (3/4 arrière, en fonction de linsertion ultérieure, donc du terrain ...</p>
+<ul>
+<li><p class="first">Réglons l&#8217;affichage :</p>
+<blockquote>
+<div><ul class="simple">
+<li>Affichage &gt; Style d&#8217;arêtes &gt; décochez tous les types d&#8217;arêtes</li>
+<li>Affichage &gt; Style de faces &gt; Ombré avec textures</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><strong>Perspective style &#8220;croquis&#8221; noir et blanc</strong></li>
+</ol>
+<p>Export d&#8217;une image sur fond blanc, avec les arêtes soulignées. Cette image sera utilisée pour afficher les arêtes en superposition de l&#8217;image en couleur (avant-plan) et pour afficher uniquement les arêtes en arrière plan, dans Photoshop :</p>
+<ul class="simple">
+<li>Affichage &gt; Style d&#8217;arêtes &gt; afficher les arêtes &amp; arêtes profilées &amp; arêtes prolongées</li>
+<li>Affichage &gt; Style de faces &gt; lignes cachées</li>
+<li>fenêtre &gt; Style &gt; sélectionnez le style : Arêtes de croquis &gt; Croquis au marqueur</li>
+<li>éditez le style, en réglant le niveau de détails au maximum</li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><strong>Perspective style &#8220;croquis&#8221; + brouillard</strong></li>
+</ol>
+<p>Export d&#8217;une image sur fond noir, avec un flou dans l&#8217;arrière-plan créé par un &#8220;brouillard&#8221;. L&#8217;objectif est d&#8217;avoir un arrière plan très sombre et un avant plan très clair. Cette image sera utilisée pour le remplissage du masque de fusion, dans Photoshop :</p>
+<p>À partir de l&#8217;affichage précédent (Style &gt; Croquis au marqueur = fond blanc + trait noirs forts)
+* afficher la fenêtre brouillard : Fenêtres &gt; Brouillard
+* réglages des options de brouillard :</p>
+<blockquote>
+<div><ul class="simple">
+<li>cochez &#8220;Afficher le brouillard&#8221;</li>
+<li>décochez &#8220;Utiliser la couleur d&#8217;arrière plan&#8221;</li>
+<li>cliquez dans le carré blanc pour ouvrir le sélecteur de couleurs</li>
+<li>faites glisser le curseur vers le bas pour obtenir du noir</li>
+<li>validez par OK : le fond devient noir</li>
+<li>avec les curseurs de la barre centrale (il se déplace à la souris, ou – plus finement – en cliquant dessus puis en utilisant les flèches directionnelles gauche et droite) :</li>
+<li>faites glisser le curseur droit vers la gauche : le brouillard quote{&nbsp;avance}(obscurcissement sur l&#8217;arrière)</li>
+<li>faites glisser le curseur gauche vers la droite : l&#8217;éclairement se renforce sur l&#8217;avant</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="exportation-des-images">
+<h3>Exportation des images</h3>
+<ol class="arabic">
+<li><p class="first">Pour la première scène créée,</p>
+<blockquote>
+<div><ul>
+<li><p class="first">réglons l&#8217;export des images :</p>
+<blockquote>
+<div><ul class="simple">
+<li>Fichier &gt; Exporter &gt; Graphique 2D</li>
+<li>Type d&#8217;exportation &gt; portable network graphics (<code class="file docutils literal"><span class="pre">*.png</span></code>)</li>
+<li>Options &gt; Largeur = 1200, hauteur =~ (automatiquement fonction de la largeur), Anticrénelage</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Cliquez sur Exporter</p>
+<blockquote>
+<div><ul class="simple">
+<li>en personne bien organisée, choisissez un lieu sûr parce que évident pour stocker vos image : le dossier <cite>dessin/images</cite> de votre projet!</li>
+<li>une appelation explicite est mère de clarté, quelquechose comme <code class="file docutils literal"><span class="pre">porkeno_perspective_couleur.png</span></code> me semble correct</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Pour la 2ème scène</p>
+<blockquote>
+<div><ul class="simple">
+<li>négligez les options d&#8217;exportations, elles restent configurées comme pour la fois précédente</li>
+<li>exporter et enregistrez en donnant un nom légèrement différent, comme <code class="file docutils literal"><span class="pre">porkeno_perspective_croquis.png</span></code></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Pour la 3ème scène : <code class="file docutils literal"><span class="pre">porkeno_perspective_brouillard.png</span></code></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="photoshop">
+<h2>Photoshop</h2>
+<div class="section" id="ouverture-des-images">
+<h3>Ouverture des images</h3>
+<p>Ouvrez les 3 images précédemment exportées :</p>
+<ul class="simple">
+<li>lancez Photoshop</li>
+<li><strong class="command">ctrl+o</strong> et sélectionnez l&#8217;ensemble des images à ouvrir, soit :</li>
+</ul>
+<a class="reference internal image-reference" href="../_images/capt_ng_sketchup_su+psp_rendu-facades_04.png"><img alt="../_images/capt_ng_sketchup_su+psp_rendu-facades_04.png" src="../_images/capt_ng_sketchup_su+psp_rendu-facades_04.png" style="width: 70%;" /></a>
+</div>
+<div class="section" id="travail-sur-l-image-de-couleur">
+<h3>Travail sur l&#8217;image de couleur</h3>
+<a class="reference internal image-reference" href="../_images/capt_ng_sketchup_su+psp_rendu-facades_05.png"><img alt="../_images/capt_ng_sketchup_su+psp_rendu-facades_05.png" src="../_images/capt_ng_sketchup_su+psp_rendu-facades_05.png" style="width: 70%;" /></a>
+<p>Renforcement des arêtes de l&#8217;image de couleur :
+* placez-vous sur l&#8217;image à fond blanc et arêtes vues :</p>
+<blockquote>
+<div><ul class="simple">
+<li>sélectionner l&#8217;ensemble <code class="kbd docutils literal"><span class="pre">ctrl+a</span></code></li>
+<li>copiez <code class="kbd docutils literal"><span class="pre">ctrl+c</span></code></li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p class="first">placez-vous sur l&#8217;image en couleur :</p>
+<blockquote>
+<div><ul class="simple">
+<li>collez l&#8217;image précédente <code class="kbd docutils literal"><span class="pre">ctrl+c</span></code> : un nouveau calque apparaît, au-dessus du calque contenant l&#8217;image en couleur</li>
+<li>double-cliquez sur l&#8217;icône du calque (ou faites un <code class="kbd docutils literal"><span class="pre">clic-droit</span></code> &#8211;&gt; option de fusion) pour ouvrir le dialogue de fusion (avec le calque sous-jacent)</li>
+<li>mode de fusion &gt; produit, &amp; laissez les autres options intouchées. Le mode &#8220;produit&#8221; permet d&#8217;afficher uniquement les ombres du calque supérieur (les zones blanches disparaissent). Vous remarquerez que l&#8217;image en couleur du calque inférieur voit ses arêtes &#8220;renforcées&#8221;.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<a class="reference internal image-reference" href="../_images/capt_ng_sketchup_su+psp_rendu-facades_05.png"><img alt="../_images/capt_ng_sketchup_su+psp_rendu-facades_05.png" src="../_images/capt_ng_sketchup_su+psp_rendu-facades_05.png" style="width: 70%;" /></a>
+<p>Fondu entre les 2 calques :
+* placez-vous sur l&#8217;image au fond noir :</p>
+<blockquote>
+<div><ul class="simple">
+<li>sélectionner l&#8217;ensemble : {bf ctrl+a}</li>
+<li>copiez : {bf ctrl+c}</li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p class="first">placez-vous sur l&#8217;image en couleur :</p>
+<blockquote>
+<div><ul class="simple">
+<li>désactiver la visibilité de tous les claques, en cliquant sur les icônes représentant des yeux, sur la gauche des icônes de calque</li>
+<li>créez un masque de fusion en cliquant sur l&#8217;icône en bas du panneau des calques, ou par le menu Calques &gt; masque de fusion &gt; tout faire apparaître</li>
+<li>appuyez sur la touche alt et cliquez sur l&#8217;icône du masque de fusion : la zone d&#8217;image se remplit de blanc : on vient d&#8217;activer le masque, donc toutes les modifications que l&#8217;on fait à présent se font sur le masque de fusion.</li>
+<li>collez l&#8217;image à fond noir dans le masque de fusion : {bf ctrl+v} sur la zone d&#8217;image.</li>
+<li>ré-affichez les calques, et annulez la sélection en cours : {bf ctrl+d}</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="effet-de-flou">
+<h3>Effet de flou</h3>
+<a class="reference internal image-reference" href="../_images/capt_ng_sketchup_su+psp_rendu-facades_10.png"><img alt="../_images/capt_ng_sketchup_su+psp_rendu-facades_10.png" src="../_images/capt_ng_sketchup_su+psp_rendu-facades_10.png" style="height: 600px;" /></a>
+<ul class="simple">
+<li>Placez-vous sur l&#8217;image en couleur</li>
+<li>sélectionnez le calque contenant le masque de fusion</li>
+<li>Filtre &gt; Atténuation &gt; Flou de l&#8217;objectif</li>
+<li>Source &gt; masque de fusion</li>
+<li>Flou de la distance focale &gt; 255</li>
+<li>Rayon &gt; 10</li>
+<li>laissez le reste inchangé</li>
+<li>et admirez le résultat !</li>
+</ul>
+<a class="reference internal image-reference" href="../_images/mdl01-maison-ecoconst-vast-final.png"><img alt="../_images/mdl01-maison-ecoconst-vast-final.png" src="../_images/mdl01-maison-ecoconst-vast-final.png" style="width: 70%;" /></a>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo"><a href="../index.html">
+  <img class="logo" src="../_static/logo.png" alt="Logo"/>
+</a></p>
+  <h3><a href="../index.html">Table des Matières</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Préparation de la perspective</a><ul>
+<li><a class="reference internal" href="#sketchup">Sketchup</a><ul>
+<li><a class="reference internal" href="#importation-du-modele">Importation du modèle</a></li>
+<li><a class="reference internal" href="#creation-des-scenes">Création des scènes</a></li>
+<li><a class="reference internal" href="#exportation-des-images">Exportation des images</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#photoshop">Photoshop</a><ul>
+<li><a class="reference internal" href="#ouverture-des-images">Ouverture des images</a></li>
+<li><a class="reference internal" href="#travail-sur-l-image-de-couleur">Travail sur l&#8217;image de couleur</a></li>
+<li><a class="reference internal" href="#effet-de-flou">Effet de flou</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Photoshop</a><ul>
+      <li>Previous: <a href="detourage.html" title="Chapitre précédent">Détourage d&#8217;objets, personnages, etc.</a></li>
+      <li>Next: <a href="insertion.html" title="Chapitre suivant">Insertion dans le site</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2016, Olivier TURLIER, http://canopee.org.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+    </div>
+  </body>
+</html>
