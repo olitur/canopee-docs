@@ -1,0 +1,72 @@
+c \thisissectionseparator{:}
+c \thisisutilityversion{2003.07.19}
+c \thisisbytesequence{ã}
+f b {figure-library}
+c \usedmapfile{=}{original-base}
+c \usedmapfile{=}{ec-public-lm}
+c \usedmapfile{=}{ec-base}
+c \usedmapfile{=}{original-ams-base}
+c \usedmapfile{=}{original-ams-euler}
+c \usedmapfile{=}{original-public-lm}
+c \usedmapfile{=}{texnansi-base}
+c \usedmapfile{=}{texnansi-urw-times}
+c \usedmapfile{=}{original-youngryu-tx}
+c \usedmapfile{=}{texnansi-urw-helvetica}
+c \usedmapfile{=}{texnansi-urw-courier}
+c \mainreference{}{capture free 001}{2::0:0:0:0:0:0:0::1}{1}{}
+c \mainreference{}{capture free 002}{2::0:0:0:0:0:0:0::1}{2}{}
+c \mainreference{}{capture free 003}{2::0:0:0:0:0:0:0::1}{3}{}
+c \mainreference{}{capture free 004}{2::0:0:0:0:0:0:0::1}{4}{}
+c \mainreference{}{capture free 005}{2::0:0:0:0:0:0:0::1}{5}{}
+c \mainreference{}{capture free 006}{2::0:0:0:0:0:0:0::1}{6}{}
+c \mainreference{}{capture free 007}{2::0:0:0:0:0:0:0::1}{7}{}
+c \mainreference{}{capture free 008}{2::0:0:0:0:0:0:0::1}{8}{}
+c \mainreference{}{capture free 009}{2::0:0:0:0:0:0:0::1}{9}{}
+c \mainreference{}{capture filezilla 001}{2::0:0:0:0:0:0:0::1}{10}{}
+c \mainreference{}{capture ftp-txt 001}{2::0:0:0:0:0:0:0::1}{11}{}
+c \objectreference{PDFEF}{figure-library.xml}{79}{12}
+c \mainreference{}{about: capture free 001}{2::0:0:0:0:0:0:0::1}{12}{}
+c \mainreference{}{begin}{2::0:0:0:0:0:0:0::1}{12}{}
+c \listentry{figurelist}{1}{1}{capture free 001}{2::0:0:0:0:0:0:0::1}{12}
+r e {figureindex} {2} {} {capture free 001} {2::0:0:0:0:0:0:0::1} {12}
+c \mainreference{}{about: capture free 002}{2::0:0:0:0:0:0:0::1}{12}{}
+c \listentry{figurelist}{3}{2}{capture free 002}{2::0:0:0:0:0:0:0::1}{12}
+r e {figureindex} {4} {} {capture free 002} {2::0:0:0:0:0:0:0::2} {12}
+c \mainreference{}{about: capture free 003}{2::0:0:0:0:0:0:0::2}{13}{}
+c \listentry{figurelist}{5}{3}{capture free 003}{2::0:0:0:0:0:0:0::2}{13}
+r e {figureindex} {6} {} {capture free 003} {2::0:0:0:0:0:0:0::3} {13}
+c \mainreference{}{about: capture free 004}{2::0:0:0:0:0:0:0::2}{13}{}
+c \listentry{figurelist}{7}{4}{capture free 004}{2::0:0:0:0:0:0:0::2}{13}
+r e {figureindex} {8} {} {capture free 004} {2::0:0:0:0:0:0:0::4} {13}
+c \mainreference{}{about: capture free 005}{2::0:0:0:0:0:0:0::2}{13}{}
+c \listentry{figurelist}{9}{5}{capture free 005}{2::0:0:0:0:0:0:0::2}{13}
+r e {figureindex} {10} {} {capture free 005} {2::0:0:0:0:0:0:0::5} {13}
+c \mainreference{}{about: capture free 006}{2::0:0:0:0:0:0:0::3}{14}{}
+c \listentry{figurelist}{11}{6}{capture free 006}{2::0:0:0:0:0:0:0::3}{14}
+r e {figureindex} {12} {} {capture free 006} {2::0:0:0:0:0:0:0::6} {14}
+c \mainreference{}{about: capture free 007}{2::0:0:0:0:0:0:0::3}{14}{}
+c \listentry{figurelist}{13}{7}{capture free 007}{2::0:0:0:0:0:0:0::3}{14}
+r e {figureindex} {14} {} {capture free 007} {2::0:0:0:0:0:0:0::7} {14}
+c \mainreference{}{about: capture free 008}{2::0:0:0:0:0:0:0::3}{14}{}
+c \listentry{figurelist}{15}{8}{capture free 008}{2::0:0:0:0:0:0:0::3}{14}
+r e {figureindex} {16} {} {capture free 008} {2::0:0:0:0:0:0:0::8} {14}
+c \mainreference{}{about: capture free 009}{2::0:0:0:0:0:0:0::4}{15}{}
+c \listentry{figurelist}{17}{9}{capture free 009}{2::0:0:0:0:0:0:0::4}{15}
+r e {figureindex} {18} {} {capture free 009} {2::0:0:0:0:0:0:0::9} {15}
+c \mainreference{}{about: capture filezilla 001}{2::0:0:0:0:0:0:0::4}{15}{}
+c \listentry{figurelist}{19}{10}{capture filezilla 001}{2::0:0:0:0:0:0:0::4}{15}
+r e {figureindex} {20} {} {capture filezilla 001} {2::0:0:0:0:0:0:0::10} {15}
+c \mainreference{}{about: capture ftp-txt 001}{2::0:0:0:0:0:0:0::4}{15}{}
+c \listentry{figurelist}{21}{11}{capture ftp-txt 001}{2::0:0:0:0:0:0:0::4}{15}
+r e {figureindex} {22} {} {capture ftp-txt 001} {2::0:0:0:0:0:0:0::11} {15}
+c \mainreference{}{list}{2::0:0:0:0:0:0:0::5}{16}{{0}{List of figures}}
+c \initializevariable\totalnofpositions{0}
+c \initializevariable\usedcolorchannels{r,g,b,s}
+c \mainreference{}{index}{2::0:0:0:0:0:0:0::6}{17}{{0}{Index of figures}}
+c \mainreference{}{figureindex:c}{2::0:0:0:0:0:0:0::6}{17}{}
+f e {figure-library}
+c \initializevariable\lastpage{17}
+c \initializevariable\lastpagenumber{6}
+c \initializevariable\totalnofMPgraphics{0}
+c \initializevariable\totalnofparbackgrounds{0}
+c \initializevariable\currentstrategypass{1}
