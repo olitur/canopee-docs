@@ -1,3 +1,5 @@
 build
 _static
 _templates
+*~
+*.swp
