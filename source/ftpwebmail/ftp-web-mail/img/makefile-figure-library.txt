@@ -1,1 +1,0 @@
-texmfstart texexec --autopdf --pdf --use=fig-make --mode=compact figure-library.xml
