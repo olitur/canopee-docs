@@ -9,7 +9,8 @@ Documentation CANOPEE
 Ce coin de Web regroupe toutes les documentations qui peuvent être utiles dans les missions quotidiennes d'un technicien d'études bâtiment.
 
 .. note::
-    La documentation entière est aussi disponible sous forme de document :download:`PDF <./canopee-docs.pdf>` 
+    La documentation est aussi disponible sous forme de document :download:`PDF <./docs/canopee-docs.pdf>` 
+..    :download:`ici <./fichiers/gabarit_acad2010_teb+imprimante_pdf.zip>`
 
 
 
@@ -65,6 +66,17 @@ Sommaire complet :
    burotic/index
    
 
-Pour toute erreur, commentaire positif, etc., écrivez moi sur ``o point turlier at gmail point com``
+Pour toute erreur, commentaire positif, etc., écrivez moi :email:`Olivier TURLIER <o.turlier@gmail.com>` 
+
+.. sur ``o point turlier at gmail point com``
 
 Document en version |version| indice |release| du |today|
+
+.. --------------------- pb with make latexpdf
+.. fabriqué ici : 
+.. .. googlemaps:: 6 Rue Jules Raimu, 13700 Marignane
+.. , avec ça : 
+..   .. youtube:: http://www.youtube.com/watch?v=Ql9sn3aLLlI
+..  :width: 640
+..  :height: 480
+.. -----------------------------

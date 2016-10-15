@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.7)  12 OCT 2016 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.7)  12 OCT 2016 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,7 +1014,7 @@ LaTeX Info: Redefining \nameref on input line 140.
 \openout6 = `canopee-docs.out'.
 
 
-<logo.pdf, id=169, 233.4614pt x 53.1119pt>
+<logo.pdf, id=145, 233.4614pt x 53.1119pt>
 File: logo.pdf Graphic file (type pdf)
  <use logo.pdf>
 Package pdftex.def Info: logo.pdf used on input line 142.
@@ -1028,39 +1028,39 @@ pdf>] [2
 (./canopee-docs.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 3.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )<<omx.cmap>>
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 3.
+(Font)              scaled to size 12.50409pt on input line 4.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 3.
+(Font)              scaled to size 9.37807pt on input line 4.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 3.
+(Font)              scaled to size 7.29405pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 3.
+(Font)              scaled to size 12.50409pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 3.
+(Font)              scaled to size 9.37807pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 3.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 3.
+(Font)              scaled to size 7.29405pt on input line 4.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1097,765 +1097,542 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 202.
-[3]
-Overfull \hbox (635.67915pt too wide) in paragraph at lines 286--288
-[]
- []
-
-
-Overfull \hbox (10.48746pt too wide) in paragraph at lines 289--291
-[]
- []
-
-<fixhaus_berchtold-typ2_pers_01.png, id=291, 679.53876pt x 438.63875pt>
-File: fixhaus_berchtold-typ2_pers_01.png Graphic file (type png)
-
-<use fixhaus_berchtold-typ2_pers_01.png>
-Package pdftex.def Info: fixhaus_berchtold-typ2_pers_01.png used on input line 
-306.
-(pdftex.def)             Requested size: 679.53711pt x 438.63766pt.
-File: fixhaus_berchtold-typ2_pers_01.png Graphic file (type png)
-
-<use fixhaus_berchtold-typ2_pers_01.png>
-Package pdftex.def Info: fixhaus_berchtold-typ2_pers_01.png used on input line 
-306.
-(pdftex.def)             Requested size: 452.96788pt x 292.38718pt.
-
-<fixbercholdtype2.jpg, id=292, 354.32375pt x 226.8475pt>
-File: fixbercholdtype2.jpg Graphic file (type jpg)
-
-<use fixbercholdtype2.jpg>
-Package pdftex.def Info: fixbercholdtype2.jpg used on input line 312.
-(pdftex.def)             Requested size: 354.32288pt x 226.84694pt.
-
-<fixhaus-berchtold2_fac_nord.png, id=293, 542.7477pt x 371.4678pt>
-File: fixhaus-berchtold2_fac_nord.png Graphic file (type png)
-
-<use fixhaus-berchtold2_fac_nord.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_nord.png used on input line 318
-.
-(pdftex.def)             Requested size: 542.74637pt x 371.46689pt.
-File: fixhaus-berchtold2_fac_nord.png Graphic file (type png)
- <use fixhaus-berchtold2_fac_nord.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_nord.png used on input line 318
-.
-(pdftex.def)             Requested size: 452.96788pt x 310.03563pt.
-
-<fixhaus-berchtold2_fac_sud.png, id=294, 665.6067pt x 415.5525pt>
-File: fixhaus-berchtold2_fac_sud.png Graphic file (type png)
-
-<use fixhaus-berchtold2_fac_sud.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_sud.png used on input line 324.
-
-(pdftex.def)             Requested size: 665.60507pt x 415.55148pt.
-File: fixhaus-berchtold2_fac_sud.png Graphic file (type png)
- <use fixhaus-berchtold2_fac_sud.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_sud.png used on input line 324.
-
-(pdftex.def)             Requested size: 452.96788pt x 282.80023pt.
-
-<fixhaus-berchtold2_fac_ouest.png, id=295, 641.7576pt x 410.4936pt>
-File: fixhaus-berchtold2_fac_ouest.png Graphic file (type png)
-
-<use fixhaus-berchtold2_fac_ouest.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_ouest.png used on input line 33
-0.
-(pdftex.def)             Requested size: 641.75603pt x 410.4926pt.
-File: fixhaus-berchtold2_fac_ouest.png Graphic file (type png)
- <use fixhaus-berchtold2_fac_ouest.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_ouest.png used on input line 33
-0.
-(pdftex.def)             Requested size: 452.96788pt x 289.73627pt.
-
-<fixhaus-berchtold2_fac_est.png, id=296, 574.5465pt x 385.1991pt>
-File: fixhaus-berchtold2_fac_est.png Graphic file (type png)
-
-<use fixhaus-berchtold2_fac_est.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_est.png used on input line 336.
-
-(pdftex.def)             Requested size: 574.54509pt x 385.19815pt.
-File: fixhaus-berchtold2_fac_est.png Graphic file (type png)
- <use fixhaus-berchtold2_fac_est.png>
-Package pdftex.def Info: fixhaus-berchtold2_fac_est.png used on input line 336.
-
-(pdftex.def)             Requested size: 452.96788pt x 303.69267pt.
-
-<fixhaus-berchtold2_plan_r+0.png, id=297, 372.1905pt x 523.2348pt>
-File: fixhaus-berchtold2_plan_r+0.png Graphic file (type png)
-
-<use fixhaus-berchtold2_plan_r+0.png>
-Package pdftex.def Info: fixhaus-berchtold2_plan_r+0.png used on input line 342
-.
-(pdftex.def)             Requested size: 372.18959pt x 523.23352pt.
-
-<fixhaus-berchtold2_plan_r+1.png, id=298, 409.0482pt x 470.4777pt>
-File: fixhaus-berchtold2_plan_r+1.png Graphic file (type png)
-
-<use fixhaus-berchtold2_plan_r+1.png>
-Package pdftex.def Info: fixhaus-berchtold2_plan_r+1.png used on input line 348
-.
-(pdftex.def)             Requested size: 409.0472pt x 470.47655pt.
- [4] [5 <./fixhaus_berchtold-typ2_pers_01.png (PNG copy)> <./fixbercholdtype2.j
-pg>] [6 <./fixhaus-berchtold2_fac_nord.png> <./fixhaus-berchtold2_fac_sud.png>]
- [7 <./fixhaus-berchtold2_fac_ouest.png> <./fixhaus-berchtold2_fac_est.png>] [8
- <./fixhaus-berchtold2_plan_r+0.png>]
-[9 <./fixhaus-berchtold2_plan_r+1.png>] [10] [11]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 528.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 528.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 528.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 528.
-LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 530.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
-File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
-) [12]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 598.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [13]
-<ic_mesure.png, id=386, 22.58438pt x 21.83156pt>
-File: ic_mesure.png Graphic file (type png)
- <use ic_mesure.png>
-Package pdftex.def Info: ic_mesure.png used on input line 632.
-(pdftex.def)             Requested size: 22.5843pt x 21.8315pt.
-
-<ic_selection.png, id=387, 18.82031pt x 20.32594pt>
-File: ic_selection.png Graphic file (type png)
- <use ic_selection.png>
-Package pdftex.def Info: ic_selection.png used on input line 641.
-(pdftex.def)             Requested size: 18.82025pt x 20.32588pt.
-
-<ic_decalage.png, id=388, 16.56187pt x 15.05624pt>
-File: ic_decalage.png Graphic file (type png)
- <use ic_decalage.png>
-Package pdftex.def Info: ic_decalage.png used on input line 647.
-(pdftex.def)             Requested size: 16.56183pt x 15.0562pt.
-
-<ZCV.png, id=389, 196.48407pt x 199.49532pt>
-File: ZCV.png Graphic file (type png)
- <use ZCV.png>
-Package pdftex.def Info: ZCV.png used on input line 653.
-(pdftex.def)             Requested size: 196.48358pt x 199.49481pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
-[]\T1/ppl/b/n/12 Tab \T1/ppl/m/n/12 (= al-ler dans la ZCV, ou clic dans la
- []
-
-[14 <./ic_mesure.png> <./ic_selection.png> <./ic_decalage.png> <./ZCV.png>]
-<ic_pushpull.png, id=399, 15.80907pt x 15.80907pt>
-File: ic_pushpull.png Graphic file (type png)
- <use ic_pushpull.png>
-Package pdftex.def Info: ic_pushpull.png used on input line 684.
-(pdftex.def)             Requested size: 15.809pt x 15.809pt.
-
-<ic_move.png, id=402, 21.07875pt x 21.83156pt>
-File: ic_move.png Graphic file (type png)
- <use ic_move.png>
-Package pdftex.def Info: ic_move.png used on input line 715.
-(pdftex.def)             Requested size: 21.07867pt x 21.8315pt.
- [15 <./ic_pushpull.png> <./ic_move.png>]
-Overfull \hbox (70.17516pt too wide) in paragraph at lines 762--762
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
-
- []
-
-[16]
-Overfull \hbox (58.4722pt too wide) in paragraph at lines 875--875
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
-
- []
-
-<calques-r+0.png, id=417, 175.40532pt x 220.57407pt>
-File: calques-r+0.png Graphic file (type png)
- <use calques-r+0.png>
-Package pdftex.def Info: calques-r+0.png used on input line 899.
-(pdftex.def)             Requested size: 175.40488pt x 220.57352pt.
-
-<calques-r+1.png, id=418, 175.40532pt x 220.57407pt>
-File: calques-r+1.png Graphic file (type png)
- <use calques-r+1.png>
-Package pdftex.def Info: calques-r+1.png used on input line 904.
-(pdftex.def)             Requested size: 175.40488pt x 220.57352pt.
-
-[17] [18 <./calques-r+0.png> <./calques-r+1.png>]
-LaTeX Font Info:    Font shape `T1/zi4/bx/n' in size <12> not available
-(Font)              Font shape `T1/zi4/b/n' tried instead on input line 923.
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 945--946
-[]\T1/ppl/m/n/12 Enregistrons ce fi-chier dans le dos-sier \T1/zi4/m/n/12 dwg \
-T1/ppl/m/n/12 sous le nom
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
-[]\T1/ppl/m/n/12 choisissez, dans le sous-dossier \T1/zi4/m/n/12 xref\T1/ppl/m/
-n/12 , le fi-chier
- []
-
-
-Underfull \hbox (badness 6412) in paragraph at lines 966--967
-\T1/ppl/m/n/12 jet sur un autre em-pla-ce-ment (2ème or-di-na-teur, clé usb, et
-c.) sans
- []
-
-
-Overfull \hbox (276.8708pt too wide) in paragraph at lines 966--967
-\T1/ppl/m/n/12 ra-cine com-plète, i.e. \T1/zi4/m/n/12 D:/Mesdoc/olivier/projets
-/porkeno/dessins/dwg/porkeno_plan+coupe+facade_o.turlier_14juin-15h20.dwg
- []
-
-<orientation_xref.png, id=443, 364.36125pt x 504.88625pt>
-File: orientation_xref.png Graphic file (type png)
-
-<use orientation_xref.png>
-Package pdftex.def Info: orientation_xref.png used on input line 990.
-(pdftex.def)             Requested size: 364.36035pt x 504.885pt.
- [20] [21 <./orientation_xref.png>] [22] [23]
-[24] [25] [26
+[3] [4
 
 ]
 Chapitre 2.
-[27] [28] <su_001.png, id=522, 1068.24094pt x 462.22687pt>
+[5] [6] <su_001.png, id=271, 1068.24094pt x 462.22687pt>
 File: su_001.png Graphic file (type png)
  <use su_001.png>
-Package pdftex.def Info: su_001.png used on input line 1322.
+Package pdftex.def Info: su_001.png used on input line 323.
 (pdftex.def)             Requested size: 1068.23833pt x 462.22574pt.
 File: su_001.png Graphic file (type png)
 
 <use su_001.png>
-Package pdftex.def Info: su_001.png used on input line 1322.
+Package pdftex.def Info: su_001.png used on input line 323.
 (pdftex.def)             Requested size: 452.96788pt x 195.99596pt.
- <su_002.png, id=523, 299.61937pt x 269.50688pt>
+ <su_002.png, id=272, 299.61937pt x 269.50688pt>
 File: su_002.png Graphic file (type png)
 
 <use su_002.png>
-Package pdftex.def Info: su_002.png used on input line 1330.
+Package pdftex.def Info: su_002.png used on input line 331.
 (pdftex.def)             Requested size: 299.61864pt x 269.50621pt.
- <su_003.png, id=524, 562.35094pt x 446.41782pt>
+ <su_003.png, id=273, 562.35094pt x 446.41782pt>
 File: su_003.png Graphic file (type png)
 
 <use su_003.png>
-Package pdftex.def Info: su_003.png used on input line 1338.
+Package pdftex.def Info: su_003.png used on input line 339.
 (pdftex.def)             Requested size: 562.34956pt x 446.41672pt.
 File: su_003.png Graphic file (type png)
  <use su_003.png>
-Package pdftex.def Info: su_003.png used on input line 1338.
+Package pdftex.def Info: su_003.png used on input line 339.
 (pdftex.def)             Requested size: 452.96788pt x 359.58698pt.
 
-<su_004.png, id=525, 344.03531pt x 140.77594pt>
+<su_004.png, id=274, 344.03531pt x 140.77594pt>
 File: su_004.png Graphic file (type png)
  <use su_004.png>
-Package pdftex.def Info: su_004.png used on input line 1354.
+Package pdftex.def Info: su_004.png used on input line 355.
 (pdftex.def)             Requested size: 344.03447pt x 140.77557pt.
- [29] [30 <./su_001.png> <./su_002.png>] [31 <./su_003.png> <./su_004.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1391
+ [7] [8 <./su_001.png> <./su_002.png>] [9 <./su_003.png> <./su_004.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
 []\T1/ppl/m/n/12 Vidéo :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1404
+Underfull \hbox (badness 10000) in paragraph at lines 403--405
 []
  []
 
 
-Overfull \hbox (49.26897pt too wide) in paragraph at lines 1405--1407
+Overfull \hbox (49.26897pt too wide) in paragraph at lines 406--408
 []
  []
 
-[32] [33] [34]
-Overfull \hbox (8.51958pt too wide) in paragraph at lines 1603--1605
+[10] [11] [12]
+Overfull \hbox (8.51958pt too wide) in paragraph at lines 604--606
 []
  []
 
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1617
-[]
- []
-
-
-Overfull \hbox (30.31229pt too wide) in paragraph at lines 1648--1650
-[]
- []
-
-[36]
-Overfull \hbox (83.08243pt too wide) in paragraph at lines 1719--1719
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 616--618
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1719--1719
+Overfull \hbox (30.31229pt too wide) in paragraph at lines 649--651
+[]
+ []
+
+[14]
+Overfull \hbox (83.08243pt too wide) in paragraph at lines 720--720
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--720
 
  []
 
-[37] <import_ssq_outil-instantane_01.png, id=608, 584.1825pt x 86.57344pt>
+[15] <import_ssq_outil-instantane_01.png, id=360, 584.1825pt x 86.57344pt>
 File: import_ssq_outil-instantane_01.png Graphic file (type png)
 
 <use import_ssq_outil-instantane_01.png>
 Package pdftex.def Info: import_ssq_outil-instantane_01.png used on input line 
-1761.
+762.
 (pdftex.def)             Requested size: 584.18106pt x 86.57321pt.
 File: import_ssq_outil-instantane_01.png Graphic file (type png)
 
 <use import_ssq_outil-instantane_01.png>
 Package pdftex.def Info: import_ssq_outil-instantane_01.png used on input line 
-1761.
+762.
 (pdftex.def)             Requested size: 452.96788pt x 67.13069pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1762
+Underfull \hbox (badness 10000) in paragraph at lines 760--763
 []\T1/ppl/m/n/12 Sélectionnez la zone à cap-tu-rer avec cet ou-til : [][]
  []
 
-<import_ssq_outil-instantane_02.png, id=609, 554.82281pt x 732.48656pt>
+<import_ssq_outil-instantane_02.png, id=361, 554.82281pt x 732.48656pt>
 File: import_ssq_outil-instantane_02.png Graphic file (type png)
 
 <use import_ssq_outil-instantane_02.png>
 Package pdftex.def Info: import_ssq_outil-instantane_02.png used on input line 
-1763.
+764.
 (pdftex.def)             Requested size: 554.82146pt x 732.48476pt.
 File: import_ssq_outil-instantane_02.png Graphic file (type png)
 
 <use import_ssq_outil-instantane_02.png>
 Package pdftex.def Info: import_ssq_outil-instantane_02.png used on input line 
-1763.
+764.
 (pdftex.def)             Requested size: 452.96788pt x 598.0163pt.
- [38 <./import_ssq_outil-instantane_01.png>] <import_ssq_outil-paint_03.png, id
-=616, 429.10312pt x 252.945pt>
+ [16 <./import_ssq_outil-instantane_01.png>] <import_ssq_outil-paint_03.png, id
+=368, 429.10312pt x 252.945pt>
 File: import_ssq_outil-paint_03.png Graphic file (type png)
 
 <use import_ssq_outil-paint_03.png>
-Package pdftex.def Info: import_ssq_outil-paint_03.png used on input line 1767.
-
+Package pdftex.def Info: import_ssq_outil-paint_03.png used on input line 768.
 (pdftex.def)             Requested size: 429.10207pt x 252.94438pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1765--1768
+Underfull \hbox (badness 10000) in paragraph at lines 766--769
 []\T1/ppl/m/n/12 Ouverture d'un pe-tit lo-gi-ciel bien pra-tique \T1/ppl/m/it/1
 2 PAINT \T1/ppl/m/n/12 : [][]
  []
 
-[39 <./import_ssq_outil-instantane_02.png>]
-<import_ssq_outil-paint_04.png, id=623, 347.79938pt x 294.34969pt>
+[17 <./import_ssq_outil-instantane_02.png>]
+<import_ssq_outil-paint_04.png, id=374, 347.79938pt x 294.34969pt>
 File: import_ssq_outil-paint_04.png Graphic file (type png)
 
 <use import_ssq_outil-paint_04.png>
-Package pdftex.def Info: import_ssq_outil-paint_04.png used on input line 1771.
-
+Package pdftex.def Info: import_ssq_outil-paint_04.png used on input line 772.
 (pdftex.def)             Requested size: 347.79852pt x 294.34895pt.
 
-<import_ssq_outil-paint_05.png, id=624, 721.19438pt x 576.65437pt>
+<import_ssq_outil-paint_05.png, id=375, 721.19438pt x 576.65437pt>
 File: import_ssq_outil-paint_05.png Graphic file (type png)
 
 <use import_ssq_outil-paint_05.png>
-Package pdftex.def Info: import_ssq_outil-paint_05.png used on input line 1775.
-
+Package pdftex.def Info: import_ssq_outil-paint_05.png used on input line 776.
 (pdftex.def)             Requested size: 721.19263pt x 576.65295pt.
 File: import_ssq_outil-paint_05.png Graphic file (type png)
  <use import_ssq_outil-paint_05.png>
-Package pdftex.def Info: import_ssq_outil-paint_05.png used on input line 1775.
-
+Package pdftex.def Info: import_ssq_outil-paint_05.png used on input line 776.
 (pdftex.def)             Requested size: 452.96788pt x 362.18549pt.
 
-[40 <./import_ssq_outil-paint_03.png> <./import_ssq_outil-paint_04.png>]
-<import_ssq_outil-paint_06.png, id=629, 274.02374pt x 132.495pt>
+[18 <./import_ssq_outil-paint_03.png> <./import_ssq_outil-paint_04.png>]
+<import_ssq_outil-paint_06.png, id=380, 274.02374pt x 132.495pt>
 File: import_ssq_outil-paint_06.png Graphic file (type png)
 
 <use import_ssq_outil-paint_06.png>
-Package pdftex.def Info: import_ssq_outil-paint_06.png used on input line 1779.
-
+Package pdftex.def Info: import_ssq_outil-paint_06.png used on input line 780.
 (pdftex.def)             Requested size: 274.02307pt x 132.49466pt.
- [41 <./import_ssq_outil-paint_05.png> <./import_ssq_outil-paint_06.png>] [42]
-Overfull \hbox (24.85086pt too wide) in paragraph at lines 1904--1904
+ [19 <./import_ssq_outil-paint_05.png> <./import_ssq_outil-paint_06.png>] [20]
+Overfull \hbox (24.85086pt too wide) in paragraph at lines 905--905
 \T1/ppl/b/n/12 thode/Outil|  
  []
 
 
-Overfull \hbox (0.63507pt too wide) in paragraph at lines 1904--1904
+Overfull \hbox (0.63507pt too wide) in paragraph at lines 905--905
 []\T1/ppl/b/n/12 Échelle 
  []
 
 
-Overfull \hbox (23.62057pt too wide) in paragraph at lines 1--1934
+Overfull \hbox (23.62057pt too wide) in paragraph at lines 1--935
 []\T1/zi4/m/n/12 photo-match|  
  []
 
-[43] [44] [45] [46] [47]
-<gestionnaire-scenes.png, id=696, 177.66376pt x 266.49562pt>
+[21] [22] [23] [24] [25]
+<gestionnaire-scenes.png, id=446, 177.66376pt x 266.49562pt>
 File: gestionnaire-scenes.png Graphic file (type png)
 
 <use gestionnaire-scenes.png>
-Package pdftex.def Info: gestionnaire-scenes.png used on input line 2258.
+Package pdftex.def Info: gestionnaire-scenes.png used on input line 1259.
 (pdftex.def)             Requested size: 177.66331pt x 266.49496pt.
- [48]
-<ic_bo_vues.png, id=707, 139.27031pt x 21.83156pt>
+ [26]
+<ic_bo_vues.png, id=457, 139.27031pt x 21.83156pt>
 File: ic_bo_vues.png Graphic file (type png)
  <use ic_bo_vues.png>
-Package pdftex.def Info: ic_bo_vues.png used on input line 2294.
+Package pdftex.def Info: ic_bo_vues.png used on input line 1295.
 (pdftex.def)             Requested size: 139.26996pt x 21.8315pt.
 
-[49 <./gestionnaire-scenes.png> <./ic_bo_vues.png>]
-<ic_coupe.png, id=717, 21.07875pt x 22.58438pt>
+[27 <./gestionnaire-scenes.png> <./ic_bo_vues.png>]
+<ic_coupe.png, id=467, 21.07875pt x 22.58438pt>
 File: ic_coupe.png Graphic file (type png)
  <use ic_coupe.png>
-Package pdftex.def Info: ic_coupe.png used on input line 2346.
+Package pdftex.def Info: ic_coupe.png used on input line 1347.
 (pdftex.def)             Requested size: 21.07867pt x 22.5843pt.
- [50 <./ic_coupe.png (PNG copy)>] [51] [52
+LaTeX Font Info:    Font shape `T1/zi4/bx/n' in size <12> not available
+(Font)              Font shape `T1/zi4/b/n' tried instead on input line 1370.
+ [28 <./ic_coupe.png (PNG copy)>] [29] [30
 
 ]
 Chapitre 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
+Underfull \hbox (badness 10000) in paragraph at lines 1446--1447
 []\T1/ppl/m/n/12 Tous les ré-glages ci-dessous sont en-re-gis-trés dans un fi-c
 hier \T1/ppl/b/n/12 ga-ba-rit
  []
 
-[53]
-Overfull \hbox (660.22392pt too wide) in paragraph at lines 2460--2460
+[31]
+Overfull \hbox (660.22392pt too wide) in paragraph at lines 1461--1461
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2460--2460
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1461
 
  []
 
-[54] <capt_config-acad_affichage-ruban.png, id=754, 542.025pt x 392.21532pt>
+[32] <capt_config-acad_affichage-ruban.png, id=504, 542.025pt x 392.21532pt>
 File: capt_config-acad_affichage-ruban.png Graphic file (type png)
 
 <use capt_config-acad_affichage-ruban.png>
 Package pdftex.def Info: capt_config-acad_affichage-ruban.png used on input lin
-e 2530.
+e 1531.
 (pdftex.def)             Requested size: 542.02367pt x 392.21436pt.
 File: capt_config-acad_affichage-ruban.png Graphic file (type png)
 
 <use capt_config-acad_affichage-ruban.png>
 Package pdftex.def Info: capt_config-acad_affichage-ruban.png used on input lin
-e 2530.
+e 1531.
 (pdftex.def)             Requested size: 452.96788pt x 327.7829pt.
- [55 <./capt_config-acad_affichage-ruban.png>] [56] [57]
-<style_txt-1.5mm-anot.png, id=778, 466.74374pt x 301.8778pt>
+ [33 <./capt_config-acad_affichage-ruban.png>] [34] [35]
+<style_txt-1.5mm-anot.png, id=528, 466.74374pt x 301.8778pt>
 File: style_txt-1.5mm-anot.png Graphic file (type png)
 
 <use style_txt-1.5mm-anot.png>
-Package pdftex.def Info: style_txt-1.5mm-anot.png used on input line 2879.
+Package pdftex.def Info: style_txt-1.5mm-anot.png used on input line 1880.
 (pdftex.def)             Requested size: 466.7426pt x 301.87706pt.
 File: style_txt-1.5mm-anot.png Graphic file (type png)
  <use style_txt-1.5mm-anot.png>
-Package pdftex.def Info: style_txt-1.5mm-anot.png used on input line 2879.
+Package pdftex.def Info: style_txt-1.5mm-anot.png used on input line 1880.
 (pdftex.def)             Requested size: 452.96788pt x 292.98233pt.
- [58] [59 <./style_txt-1.5mm-anot.png>] <cotstyle_00.png, id=794, 383.18156pt x
+ [36] [37 <./style_txt-1.5mm-anot.png>] <cotstyle_00.png, id=544, 383.18156pt x
  119.69719pt>
 File: cotstyle_00.png Graphic file (type png)
 
 <use cotstyle_00.png>
-Package pdftex.def Info: cotstyle_00.png used on input line 2953.
+Package pdftex.def Info: cotstyle_00.png used on input line 1954.
 (pdftex.def)             Requested size: 383.18062pt x 119.69688pt.
- <cotstyle_0.png, id=795, 396.7322pt x 277.78781pt>
+ <cotstyle_0.png, id=545, 396.7322pt x 277.78781pt>
 File: cotstyle_0.png Graphic file (type png)
 
 <use cotstyle_0.png>
-Package pdftex.def Info: cotstyle_0.png used on input line 2963.
+Package pdftex.def Info: cotstyle_0.png used on input line 1964.
 (pdftex.def)             Requested size: 396.73122pt x 277.78711pt.
- <cotstyle_1.png, id=796, 430.60875pt x 390.70969pt>
+ <cotstyle_1.png, id=546, 430.60875pt x 390.70969pt>
 File: cotstyle_1.png Graphic file (type png)
 
 <use cotstyle_1.png>
-Package pdftex.def Info: cotstyle_1.png used on input line 2974.
+Package pdftex.def Info: cotstyle_1.png used on input line 1975.
 (pdftex.def)             Requested size: 430.60768pt x 390.70872pt.
- <cotstyle_2.png, id=797, 430.60875pt x 390.70969pt>
+ <cotstyle_2.png, id=547, 430.60875pt x 390.70969pt>
 File: cotstyle_2.png Graphic file (type png)
 
 <use cotstyle_2.png>
-Package pdftex.def Info: cotstyle_2.png used on input line 2985.
+Package pdftex.def Info: cotstyle_2.png used on input line 1986.
 (pdftex.def)             Requested size: 430.60768pt x 390.70872pt.
- <cotstyle_3.png, id=798, 430.60875pt x 390.70969pt>
+ <cotstyle_3.png, id=548, 430.60875pt x 390.70969pt>
 File: cotstyle_3.png Graphic file (type png)
 
 <use cotstyle_3.png>
-Package pdftex.def Info: cotstyle_3.png used on input line 2996.
+Package pdftex.def Info: cotstyle_3.png used on input line 1997.
 (pdftex.def)             Requested size: 430.60768pt x 390.70872pt.
- <cotstyle_4.png, id=799, 430.60875pt x 390.70969pt>
+ <cotstyle_4.png, id=549, 430.60875pt x 390.70969pt>
 File: cotstyle_4.png Graphic file (type png)
 
 <use cotstyle_4.png>
-Package pdftex.def Info: cotstyle_4.png used on input line 3007.
+Package pdftex.def Info: cotstyle_4.png used on input line 2008.
 (pdftex.def)             Requested size: 430.60768pt x 390.70872pt.
- [60 <./cotstyle_00.png> <./cotstyle_0.png>] [61 <./cotstyle_1.png>] [62 <./cot
-style_2.png>] [63 <./cotstyle_3.png>] [64 <./cotstyle_4.png>] <cote_m+cm.png, i
-d=834, 370.38374pt x 301.125pt>
+ [38 <./cotstyle_00.png> <./cotstyle_0.png>] [39 <./cotstyle_1.png>] [40 <./cot
+style_2.png>] [41 <./cotstyle_3.png>] [42 <./cotstyle_4.png>] <cote_m+cm.png, i
+d=584, 370.38374pt x 301.125pt>
 File: cote_m+cm.png Graphic file (type png)
  <use cote_m+cm.png>
-Package pdftex.def Info: cote_m+cm.png used on input line 3023.
+Package pdftex.def Info: cote_m+cm.png used on input line 2024.
 (pdftex.def)             Requested size: 370.38283pt x 301.12425pt.
 
-<tablo-styles_titre+entete+donnees.png, id=835, 572.89032pt x 358.33875pt>
+<tablo-styles_titre+entete+donnees.png, id=585, 572.89032pt x 358.33875pt>
 File: tablo-styles_titre+entete+donnees.png Graphic file (type png)
 
 <use tablo-styles_titre+entete+donnees.png>
 Package pdftex.def Info: tablo-styles_titre+entete+donnees.png used on input li
-ne 3035.
+ne 2036.
 (pdftex.def)             Requested size: 572.88892pt x 358.33788pt.
 File: tablo-styles_titre+entete+donnees.png Graphic file (type png)
 
 <use tablo-styles_titre+entete+donnees.png>
 Package pdftex.def Info: tablo-styles_titre+entete+donnees.png used on input li
-ne 3035.
+ne 2036.
 (pdftex.def)             Requested size: 452.96788pt x 283.33057pt.
- [65 <./cote_m+cm.png (PNG copy)>]
-<styles_reper-multiples.png, id=843, 210.03468pt x 136.25906pt>
+ [43 <./cote_m+cm.png (PNG copy)>]
+<styles_reper-multiples.png, id=593, 210.03468pt x 136.25906pt>
 File: styles_reper-multiples.png Graphic file (type png)
 
 <use styles_reper-multiples.png>
-Package pdftex.def Info: styles_reper-multiples.png used on input line 3084.
+Package pdftex.def Info: styles_reper-multiples.png used on input line 2085.
 (pdftex.def)             Requested size: 210.03416pt x 136.25871pt.
- [66 <./tablo-styles_titre+entete+donnees.png>] [67 <./styles_reper-multiples.p
+ [44 <./tablo-styles_titre+entete+donnees.png>] [45 <./styles_reper-multiples.p
 ng>]
-Overfull \hbox (72.22845pt too wide) in paragraph at lines 3222--3222
+Overfull \hbox (72.22845pt too wide) in paragraph at lines 2223--2223
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3222--3222
+Underfull \hbox (badness 10000) in paragraph at lines 2223--2223
 
  []
 
-<gel-calque_en-presentation_00.png, id=860, 298.86656pt x 269.50688pt>
+<gel-calque_en-presentation_00.png, id=611, 298.86656pt x 269.50688pt>
 File: gel-calque_en-presentation_00.png Graphic file (type png)
 
 <use gel-calque_en-presentation_00.png>
-Package pdftex.def Info: gel-calque_en-presentation_00.png used on input line 3
-241.
+Package pdftex.def Info: gel-calque_en-presentation_00.png used on input line 2
+242.
 (pdftex.def)             Requested size: 298.86581pt x 269.50621pt.
- [68]
-<gel-calque_en-presentation_01.png, id=866, 465.23813pt x 313.9228pt>
+ [46]
+<gel-calque_en-presentation_01.png, id=617, 465.23813pt x 313.9228pt>
 File: gel-calque_en-presentation_01.png Graphic file (type png)
 
 <use gel-calque_en-presentation_01.png>
-Package pdftex.def Info: gel-calque_en-presentation_01.png used on input line 3
-246.
+Package pdftex.def Info: gel-calque_en-presentation_01.png used on input line 2
+247.
 (pdftex.def)             Requested size: 465.23698pt x 313.92203pt.
 File: gel-calque_en-presentation_01.png Graphic file (type png)
 
 <use gel-calque_en-presentation_01.png>
-Package pdftex.def Info: gel-calque_en-presentation_01.png used on input line 3
-246.
+Package pdftex.def Info: gel-calque_en-presentation_01.png used on input line 2
+247.
 (pdftex.def)             Requested size: 452.96788pt x 305.65436pt.
 
-<gel-calque_en-presentation_02.png, id=867, 415.5525pt x 194.97844pt>
+<gel-calque_en-presentation_02.png, id=618, 415.5525pt x 194.97844pt>
 File: gel-calque_en-presentation_02.png Graphic file (type png)
 
 <use gel-calque_en-presentation_02.png>
-Package pdftex.def Info: gel-calque_en-presentation_02.png used on input line 3
-251.
+Package pdftex.def Info: gel-calque_en-presentation_02.png used on input line 2
+252.
 (pdftex.def)             Requested size: 415.55148pt x 194.97795pt.
 
-<gel-calque_en-presentation_03.png, id=868, 414.79968pt x 202.50656pt>
+<gel-calque_en-presentation_03.png, id=619, 414.79968pt x 202.50656pt>
 File: gel-calque_en-presentation_03.png Graphic file (type png)
 
 <use gel-calque_en-presentation_03.png>
-Package pdftex.def Info: gel-calque_en-presentation_03.png used on input line 3
-256.
+Package pdftex.def Info: gel-calque_en-presentation_03.png used on input line 2
+257.
 (pdftex.def)             Requested size: 414.79868pt x 202.50604pt.
- [69 <./gel-calque_en-presentation_00.png>] [70 <./gel-calque_en-presentation_0
-1.png (PNG copy)> <./gel-calque_en-presentation_02.png>] [71 <./gel-calque_en-p
-resentation_03.png>] [72]
+ [47 <./gel-calque_en-presentation_00.png>] [48 <./gel-calque_en-presentation_0
+1.png (PNG copy)> <./gel-calque_en-presentation_02.png>] [49 <./gel-calque_en-p
+resentation_03.png>] [50]
 Chapitre 4.
-[73
+[51
 
-] [74] [75] [76] [77]
-<mdl01-maison-ecoconst-vast_ombre+couleur.png, id=937, 1204.5pt x 854.19125pt>
+] [52] [53] [54]
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
+) [55]
+<mdl01-maison-ecoconst-vast_ombre+couleur.png, id=688, 1204.5pt x 854.19125pt>
 File: mdl01-maison-ecoconst-vast_ombre+couleur.png Graphic file (type png)
 
 <use mdl01-maison-ecoconst-vast_ombre+couleur.png>
 Package pdftex.def Info: mdl01-maison-ecoconst-vast_ombre+couleur.png used on i
-nput line 3711.
+nput line 2712.
 (pdftex.def)             Requested size: 317.07613pt x 224.8607pt.
- [78]
-Underfull \hbox (badness 7504) in paragraph at lines 3714--3715
+ [56]
+Underfull \hbox (badness 7504) in paragraph at lines 2715--2716
 \T1/ppl/m/it/12 3D Wa-re-house\T1/ppl/m/n/12 , on pren-dra un mo-dèle mo-derne,
  dans l'es-prit ``éco-
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 3714--3715
+Underfull \hbox (badness 5711) in paragraph at lines 2715--2716
 \T1/ppl/m/n/12 cons-truc-tion''. Cli-quez sur le lien et en-re-gis-trez le fi-c
 hier sur votre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3714--3715
+Underfull \hbox (badness 10000) in paragraph at lines 2715--2716
 \T1/ppl/m/n/12 disque dur : [][]$http : / / sketchup . google . com / 3dwarehou
 se / details ? mid =
  []
 
-[79 <./mdl01-maison-ecoconst-vast_ombre+couleur.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3810--3811
+[57 <./mdl01-maison-ecoconst-vast_ombre+couleur.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2811--2812
 []\T1/ppl/m/n/12 faites glis-ser le cur-seur droit vers la gauche : le brouilla
 rd
  []
 
-[80]
-<capt_ng_sketchup_su+psp_rendu-facades_04.png, id=966, 292.09125pt x 100.12407p
+[58]
+<capt_ng_sketchup_su+psp_rendu-facades_04.png, id=717, 292.09125pt x 100.12407p
 t>
 File: capt_ng_sketchup_su+psp_rendu-facades_04.png Graphic file (type png)
  <use capt_ng_sketchup_su+psp_rendu-facades_04.png>
 Package pdftex.def Info: capt_ng_sketchup_su+psp_rendu-facades_04.png used on i
-nput line 3882.
+nput line 2883.
 (pdftex.def)             Requested size: 317.07613pt x 108.69763pt.
 
-<capt_ng_sketchup_su+psp_rendu-facades_05.png, id=967, 542.77782pt x 332.74312p
+<capt_ng_sketchup_su+psp_rendu-facades_05.png, id=718, 542.77782pt x 332.74312p
 t>
 File: capt_ng_sketchup_su+psp_rendu-facades_05.png Graphic file (type png)
  <use capt_ng_sketchup_su+psp_rendu-facades_05.png>
 Package pdftex.def Info: capt_ng_sketchup_su+psp_rendu-facades_05.png used on i
-nput line 3887.
+nput line 2888.
 (pdftex.def)             Requested size: 317.07613pt x 194.38737pt.
- [81 <./capt_ng_sketchup_su+psp_rendu-facades_04.png (PNG copy)> <./capt_ng_ske
+ [59 <./capt_ng_sketchup_su+psp_rendu-facades_04.png (PNG copy)> <./capt_ng_ske
 tchup_su+psp_rendu-facades_05.png>]
 File: capt_ng_sketchup_su+psp_rendu-facades_05.png Graphic file (type png)
  <use capt_ng_sketchup_su+psp_rendu-facades_05.png>
 Package pdftex.def Info: capt_ng_sketchup_su+psp_rendu-facades_05.png used on i
-nput line 3916.
+nput line 2917.
 (pdftex.def)             Requested size: 317.07613pt x 194.38737pt.
 
-<capt_ng_sketchup_su+psp_rendu-facades_10.png, id=978, 176.15813pt x 462.97969p
+<capt_ng_sketchup_su+psp_rendu-facades_10.png, id=728, 176.15813pt x 462.97969p
 t>
 File: capt_ng_sketchup_su+psp_rendu-facades_10.png Graphic file (type png)
  <use capt_ng_sketchup_su+psp_rendu-facades_10.png>
 Package pdftex.def Info: capt_ng_sketchup_su+psp_rendu-facades_10.png used on i
-nput line 3954.
+nput line 2955.
 (pdftex.def)             Requested size: 176.15768pt x 462.97855pt.
- [82]
-<mdl01-maison-ecoconst-vast-final.png, id=983, 1204.5pt x 854.19125pt>
+ [60]
+<mdl01-maison-ecoconst-vast-final.png, id=733, 1204.5pt x 854.19125pt>
 File: mdl01-maison-ecoconst-vast-final.png Graphic file (type png)
 
 <use mdl01-maison-ecoconst-vast-final.png>
 Package pdftex.def Info: mdl01-maison-ecoconst-vast-final.png used on input lin
-e 3982.
+e 2983.
 (pdftex.def)             Requested size: 317.07613pt x 224.8607pt.
- [83 <./capt_ng_sketchup_su+psp_rendu-facades_10.png>]
-Overfull \hbox (96.19164pt too wide) in paragraph at lines 3994--3994
+ [61 <./capt_ng_sketchup_su+psp_rendu-facades_10.png>]
+Overfull \hbox (96.19164pt too wide) in paragraph at lines 2995--2995
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3994--3994
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 
  []
 
-[84 <./mdl01-maison-ecoconst-vast-final.png>] [85]
-<tuto-insertion_palette_calques.png, id=1004, 210.03468pt x 175.40532pt>
+[62 <./mdl01-maison-ecoconst-vast-final.png>] [63]
+<tuto-insertion_palette_calques.png, id=755, 210.03468pt x 175.40532pt>
 File: tuto-insertion_palette_calques.png Graphic file (type png)
 
 <use tuto-insertion_palette_calques.png>
 Package pdftex.def Info: tuto-insertion_palette_calques.png used on input line 
-4137.
+3138.
 (pdftex.def)             Requested size: 125.12915pt x 104.49994pt.
- [86 <./tuto-insertion_palette_calques.png>] <faire_jaquette_cd_01.png, id=1011
-, 362.153pt x 371.205pt>
+ [64 <./tuto-insertion_palette_calques.png>] <faire_jaquette_cd_01.png, id=762,
+ 362.153pt x 371.205pt>
 File: faire_jaquette_cd_01.png Graphic file (type png)
 
 <use faire_jaquette_cd_01.png>
-Package pdftex.def Info: faire_jaquette_cd_01.png used on input line 4175.
+Package pdftex.def Info: faire_jaquette_cd_01.png used on input line 3176.
 (pdftex.def)             Requested size: 317.07613pt x 325.02448pt.
- [87]
-<faire_jaquette_cd_02.png, id=1019, 358.941pt x 280.04625pt>
+ [65]
+<faire_jaquette_cd_02.png, id=769, 358.941pt x 280.04625pt>
 File: faire_jaquette_cd_02.png Graphic file (type png)
 
 <use faire_jaquette_cd_02.png>
-Package pdftex.def Info: faire_jaquette_cd_02.png used on input line 4184.
+Package pdftex.def Info: faire_jaquette_cd_02.png used on input line 3185.
 (pdftex.def)             Requested size: 317.07613pt x 247.38153pt.
- [88 <./faire_jaquette_cd_01.png (PNG copy)> <./faire_jaquette_cd_02.png (PNG c
+ [66 <./faire_jaquette_cd_01.png (PNG copy)> <./faire_jaquette_cd_02.png (PNG c
 opy)>]
-<faire_jaquette_cd_03.png, id=1025, 361.35pt x 365.45625pt>
+<faire_jaquette_cd_03.png, id=775, 361.35pt x 365.45625pt>
 File: faire_jaquette_cd_03.png Graphic file (type png)
 
 <use faire_jaquette_cd_03.png>
-Package pdftex.def Info: faire_jaquette_cd_03.png used on input line 4217.
+Package pdftex.def Info: faire_jaquette_cd_03.png used on input line 3218.
 (pdftex.def)             Requested size: 317.07613pt x 320.68237pt.
- [89 <./faire_jaquette_cd_03.png (PNG copy)>]
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 4322--4323
+ [67 <./faire_jaquette_cd_03.png (PNG copy)>]
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 3323--3324
 []\T1/ppl/m/n/12 les lo-gi-ciels pré-cedent per-mettent de ``bri-co-ler'' un as
 -sem-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4325--4326
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 3326
+.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3326--3327
 \T1/ppl/m/n/12 paris-[]20-[]gigapixels . com / fr/$[][], [][]$http : / / www . 
 yosemite-[]17-[]gigapixels .
  []
 
-[91] [92] [93] <autopano_01.png, id=1079, 397.485pt x 235.69875pt>
+[69] [70] [71] <autopano_01.png, id=830, 397.485pt x 235.69875pt>
 File: autopano_01.png Graphic file (type png)
 
 <use autopano_01.png>
-Package pdftex.def Info: autopano_01.png used on input line 4585.
+Package pdftex.def Info: autopano_01.png used on input line 3586.
 (pdftex.def)             Requested size: 397.48402pt x 235.69815pt.
- <autopano_02.png, id=1080, 128.48pt x 107.58376pt>
+ <autopano_02.png, id=831, 128.48pt x 107.58376pt>
 File: autopano_02.png Graphic file (type png)
 
 <use autopano_02.png>
-Package pdftex.def Info: autopano_02.png used on input line 4591.
+Package pdftex.def Info: autopano_02.png used on input line 3592.
 (pdftex.def)             Requested size: 128.47968pt x 107.58347pt.
- [94 <./autopano_01.png (PNG copy)> <./autopano_02.png (PNG copy)>] [95] [96]
+ [72 <./autopano_01.png (PNG copy)> <./autopano_02.png (PNG copy)>] [73] [74]
 Chapitre 5.
-[97
+[75
 
-] [98]
+] [76]
 Chapitre 6.
-(./canopee-docs.ind [99
+(./canopee-docs.ind [77
 
-] [100
+] [78
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [101
+) [79
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4782.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4782.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3784.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3784.
 
 (./canopee-docs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4782.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4782.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3784.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3784.
 
 Package rerunfilecheck Info: File `canopee-docs.out' has not changed.
-(rerunfilecheck)             Checksum: 22B402EF3453D61E9F38BEBA88AEBB3D;6783.
+(rerunfilecheck)             Checksum: AE22E7337E6B6F6AC5E883FB1B299B4F;5721.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4782.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3784.
  ) 
 Here is how much of TeX's memory you used:
- 15040 strings out of 493054
- 216959 string characters out of 6134766
- 389193 words of memory out of 5000000
- 17796 multiletter control sequences out of 15000+600000
- 35138 words of font info for 80 fonts, out of 8000000 for 9000
+ 14757 strings out of 493054
+ 210649 string characters out of 6134766
+ 297912 words of memory out of 5000000
+ 17641 multiletter control sequences out of 15000+600000
+ 28092 words of font info for 62 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 36i,12n,51p,767b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,48p,702b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/u
-sr/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/l
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2015/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr/l
 ocal/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></us
@@ -1866,10 +1643,10 @@ texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on canopee-docs.pdf (105 pages, 5099471 bytes).
+Output written on canopee-docs.pdf (83 pages, 4111027 bytes).
 PDF statistics:
- 1255 PDF objects out of 1440 (max. 8388607)
- 1039 compressed objects within 11 object streams
- 389 named destinations out of 1000 (max. 500000)
- 634 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 988 PDF objects out of 1000 (max. 8388607)
+ 816 compressed objects within 9 object streams
+ 292 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

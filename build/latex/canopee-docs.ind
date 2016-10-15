@@ -2,19 +2,19 @@
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 
   \bigletter D
-  \item dwg, \hyperindexformat{\textbf}{72}
+  \item dwg, \hyperindexformat{\textbf}{50}
 
   \indexspace
   \bigletter F
-  \item FTP, \hyperindexformat{\textbf}{98}
+  \item FTP, \hyperindexformat{\textbf}{76}
 
   \indexspace
   \bigletter P
-  \item pdf, \hyperindexformat{\textbf}{99}
-  \item Push-pull (tirer-pousser) raccourci, \hyperindexformat{\textbf}{51}
+  \item pdf, \hyperindexformat{\textbf}{77}
+  \item Push-pull (tirer-pousser) raccourci, \hyperindexformat{\textbf}{29}
 
   \indexspace
   \bigletter Z
-  \item ZCV, \hyperindexformat{\textbf}{51}
+  \item ZCV, \hyperindexformat{\textbf}{29}
 
 \end{theindex}
